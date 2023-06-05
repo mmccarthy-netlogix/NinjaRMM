@@ -1,0 +1,35 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>IT-Glue Automatic Documentation - BitLocker keys [WIN]</name>
+    <category>scripts</category>
+    <description>Documents BitLocker keys and tags correct configuration. Minimum Required OS: Windows Server 2012 R2+, PS 5.0+
+Related blog: https://www.cyberdrain.com/documenting-with-powershell-chapter-2-documenting-bitlocker-keys/</description>
+    <uid>1816cc3e-4a01-4c01-989c-7cc1007d7d33</uid>
+    <hash />
+    <version>5</version>
+    <timeout>3600</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>powershell</installType>
+  </general>
+  <variable idx='0'>
+    <name>ITGlueAPIKey</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>IT-Glue API key</description>
+    <defaultVal></defaultVal>
+  </variable>
+  <variable idx='1'>
+    <name>OrgID</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>Organisation ID of client.</description>
+    <defaultVal></defaultVal>
+  </variable>
+  <variable idx='2'>
+    <name>ITGlueURL</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>API URL IT-Glue</description>
+    <defaultVal>https://api.eu.itglue.com</defaultVal>
+  </variable>
+</component>

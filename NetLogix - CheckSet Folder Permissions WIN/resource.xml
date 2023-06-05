@@ -1,0 +1,96 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Check/Set Folder Permissions [WIN]</name>
+    <category>scripts</category>
+    <description>Checks for a specific permission on a folder and optionally adds it</description>
+    <uid>03d769a0-1974-423e-916e-fca0bf805dac</uid>
+    <hash />
+    <version>7</version>
+    <timeout>3600</timeout>
+    <securityLevel>5</securityLevel>
+    <installType>powershell</installType>
+  </general>
+  <variable idx='0'>
+    <name>IdentityReference</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>Username or SID
+https://docs.microsoft.com/en-us/dotnet/api/system.security.principal.identityreference?view=net-6.0</description>
+    <defaultVal />
+  </variable>
+  <variable idx='1'>
+    <name>FileSystemRights</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>https://docs.microsoft.com/en-us/dotnet/api/system.security.accesscontrol.filesystemrights?view=net-6.0</description>
+    <defaultVal />
+  </variable>
+  <variable idx='2'>
+    <name>AccessControlType</name>
+    <selectionKeyValue idx='0'>
+      <name>Allow</name>
+      <value>Allow</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='1'>
+      <name>Deny</name>
+      <value>Deny</value>
+    </selectionKeyValue>
+    <type>map</type>
+    <direction>false</direction>
+    <description>https://docs.microsoft.com/en-us/dotnet/api/system.security.accesscontrol.accesscontroltype?view=net-6.0</description>
+    <defaultVal>Allow</defaultVal>
+  </variable>
+  <variable idx='3'>
+    <name>InheritaceFlags</name>
+    <selectionKeyValue idx='0'>
+      <name>Container Inherit</name>
+      <value>ContainerInherit</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='1'>
+      <name>Object Inherit</name>
+      <value>ObjectInherit</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='2'>
+      <name>Container+Object Inherit</name>
+      <value>ContainerInherit, ObjectInherit</value>
+    </selectionKeyValue>
+    <type>map</type>
+    <direction>false</direction>
+    <description>https://docs.microsoft.com/en-us/dotnet/api/system.security.accesscontrol.inheritanceflags?view=net-6.0</description>
+    <defaultVal>Container+Object Inherit</defaultVal>
+  </variable>
+  <variable idx='4'>
+    <name>PropagationFlags</name>
+    <selectionKeyValue idx='0'>
+      <name>InheritOnly</name>
+      <value>InheritOnly</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='1'>
+      <name>NoPropagateInherit</name>
+      <value>NoPropagateInherit</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='2'>
+      <name>None</name>
+      <value>None</value>
+    </selectionKeyValue>
+    <type>map</type>
+    <direction>false</direction>
+    <description>https://docs.microsoft.com/en-us/dotnet/api/system.security.accesscontrol.propagationflags?view=net-6.0</description>
+    <defaultVal>None</defaultVal>
+  </variable>
+  <variable idx='5'>
+    <name>Folder</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>Folder to check/set permissions on
+Ex: C:\Windows\Temp</description>
+    <defaultVal />
+  </variable>
+  <variable idx='6'>
+    <name>SetPermissions</name>
+    <type>boolean</type>
+    <direction>false</direction>
+    <description>Apply permissions if they are not present</description>
+    <defaultVal>true</defaultVal>
+  </variable>
+</component>

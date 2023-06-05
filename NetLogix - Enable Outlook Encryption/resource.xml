@@ -1,0 +1,14 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Enable Outlook Encryption</name>
+    <category>scripts</category>
+    <description>Loops through all user profiles on the local machine, loads the registry hive, and adds the following registry keys:
+HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Common\Identity NoDomainUser=1</description>
+    <uid>8c5942a5-12e8-4170-baca-9468894dd5e8</uid>
+    <hash />
+    <version>2</version>
+    <timeout>3600</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>powershell</installType>
+  </general>
+</component>

@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Microsoft Office Remove previous versions (2003-2016, All CTR)</name>
+    <category>scripts</category>
+    <description></description>
+    <uid>a6fb48ea-ee88-4067-ba33-c018b0f2fc77</uid>
+    <hash>8dd4cbfa52afaf64bb30008392d4d72d</hash>
+    <version>11</version>
+    <timeout>3600</timeout>
+    <securityLevel>2</securityLevel>
+    <installType>powershell</installType>
+  </general>
+</component>

@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Output environment variables</name>
+    <category>scripts</category>
+    <description></description>
+    <uid>04cfc0af-fd4f-4a16-b213-ae027ae4fcca</uid>
+    <hash />
+    <version>6</version>
+    <timeout>3600</timeout>
+    <securityLevel>5</securityLevel>
+    <installType>powershell</installType>
+  </general>
+</component>

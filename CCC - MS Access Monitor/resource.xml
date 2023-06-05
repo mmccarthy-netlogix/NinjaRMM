@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>CCC - MS Access Monitor</name>
+    <category>monitors</category>
+    <description></description>
+    <uid>6094d825-ffb5-4ec8-b4e5-d3cf46eb3ca0</uid>
+    <hash />
+    <version>10</version>
+    <timeout>60</timeout>
+    <securityLevel>4</securityLevel>
+    <installType>powershell</installType>
+  </general>
+</component>

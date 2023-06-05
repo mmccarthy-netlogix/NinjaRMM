@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Competitor ConnectWise Control (ScreenConnect) Uninstaller [WIN]</name>
+    <category>scripts</category>
+    <description>Removes all ConnectWise Control instances that are not associated with NetLogix.</description>
+    <uid>7da5f9c7-3ba8-423b-a9b5-893b6fd8620f</uid>
+    <hash />
+    <version>6</version>
+    <timeout>3600</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>powershell</installType>
+  </general>
+</component>

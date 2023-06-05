@@ -1,0 +1,21 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>Print Queues - Reset [MAC]</name>
+    <category>scripts</category>
+    <description>Resets the printing subsystem on Mac computers.
+This will remove all printers currently installed on the sytem!</description>
+    <uid>89630238-7b20-4f54-b0c4-f426a77ec8dd</uid>
+    <hash />
+    <version>9</version>
+    <timeout>3600</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>unix</installType>
+  </general>
+  <variable idx='0'>
+    <name>usrConfirm</name>
+    <type>boolean</type>
+    <direction>false</direction>
+    <description>Set to True to remove printers.</description>
+    <defaultVal>false</defaultVal>
+  </variable>
+</component>

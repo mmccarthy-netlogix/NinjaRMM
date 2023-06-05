@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>BACPS - Printer installation</name>
+    <category>scripts</category>
+    <description></description>
+    <uid>964a2d2d-fc69-4cbb-b7fd-acdea6522c23</uid>
+    <hash>c47d07c0f1684403ac6271540ad4d13d</hash>
+    <version>13</version>
+    <timeout>3600</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>unix</installType>
+  </general>
+</component>

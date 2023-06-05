@@ -1,0 +1,16 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Network Detective - Local Scan</name>
+    <category>scripts</category>
+    <description>Downloads the latest Network Detective application and connector.
+Runs a computer scan
+Runs a security scan
+Uploads the files using the Network Detective Connector using the NDConnectorID set at the site level.</description>
+    <uid>222e00f7-2d82-4743-93b2-ecca38036df9</uid>
+    <hash />
+    <version>9</version>
+    <timeout>3600</timeout>
+    <securityLevel>5</securityLevel>
+    <installType>powershell</installType>
+  </general>
+</component>

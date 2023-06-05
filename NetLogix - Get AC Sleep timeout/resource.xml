@@ -1,0 +1,148 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Get AC Sleep timeout</name>
+    <category>scripts</category>
+    <description>Obtains the current sleep timeout using the powercfg command line tool.
+Optionally: Outputs the value to a UDF</description>
+    <uid>dcef01a1-f1a3-4ac6-b113-c8ace8b83318</uid>
+    <hash />
+    <version>18</version>
+    <timeout>300</timeout>
+    <securityLevel>5</securityLevel>
+    <installType>powershell</installType>
+  </general>
+  <variable idx='0'>
+    <name>usrWriteUDF</name>
+    <type>boolean</type>
+    <direction>false</direction>
+    <description>Write sleep timeout to UDF true/false</description>
+    <defaultVal>true</defaultVal>
+  </variable>
+  <variable idx='1'>
+    <name>usrCustomUDF</name>
+    <selectionKeyValue idx='0'>
+      <name>1</name>
+      <value>Custom1</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='1'>
+      <name>2</name>
+      <value>Custom2</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='2'>
+      <name>3</name>
+      <value>Custom3</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='3'>
+      <name>4</name>
+      <value>Custom4</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='4'>
+      <name>5</name>
+      <value>Custom5</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='5'>
+      <name>6</name>
+      <value>Custom6</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='6'>
+      <name>7</name>
+      <value>Custom7</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='7'>
+      <name>8</name>
+      <value>Custom8</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='8'>
+      <name>9</name>
+      <value>Custom9</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='9'>
+      <name>10</name>
+      <value>Custom10</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='10'>
+      <name>11</name>
+      <value>Custom11</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='11'>
+      <name>12</name>
+      <value>Custom12</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='12'>
+      <name>13</name>
+      <value>Custom13</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='13'>
+      <name>14</name>
+      <value>Custom14</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='14'>
+      <name>15</name>
+      <value>Custom15</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='15'>
+      <name>16</name>
+      <value>Custom16</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='16'>
+      <name>17</name>
+      <value>Custom17</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='17'>
+      <name>18</name>
+      <value>Custom18</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='18'>
+      <name>19</name>
+      <value>Custom19</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='19'>
+      <name>20</name>
+      <value>Custom20</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='20'>
+      <name>21</name>
+      <value>Custom21</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='21'>
+      <name>22</name>
+      <value>Custom22</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='22'>
+      <name>23</name>
+      <value>Custom23</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='23'>
+      <name>24</name>
+      <value>Custom24</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='24'>
+      <name>25</name>
+      <value>Custom25</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='25'>
+      <name>26</name>
+      <value>Custom26</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='26'>
+      <name>27</name>
+      <value>Custom27</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='27'>
+      <name>28</name>
+      <value>Custom28</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='28'>
+      <name>29</name>
+      <value>Custom29</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='29'>
+      <name>30</name>
+      <value>Custom30</value>
+    </selectionKeyValue>
+    <type>map</type>
+    <direction>false</direction>
+    <description>UDF to save the output to (1-30)</description>
+    <defaultVal>6</defaultVal>
+  </variable>
+</component>

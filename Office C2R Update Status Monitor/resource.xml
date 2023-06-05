@@ -1,0 +1,48 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>Office C2R Update Status Monitor</name>
+    <category>monitors</category>
+    <description>Checks the installed C2R version of Office and alerts if it is out of date. Windows 8.1/Server 2012 R2 and older are not supported due to limitations imposed by Microsoft.</description>
+    <uid>01f1b351-d5ab-4a15-a1a6-a0bdbcf7514b</uid>
+    <hash />
+    <version>3</version>
+    <timeout>60</timeout>
+    <securityLevel>5</securityLevel>
+    <installType>powershell</installType>
+  </general>
+  <variable idx='0'>
+    <name>MaxAge</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>Days before the latest release is considered "current".</description>
+    <defaultVal>10</defaultVal>
+  </variable>
+  <variable idx='1'>
+    <name>AlertOnOS</name>
+    <type>boolean</type>
+    <direction>false</direction>
+    <description>Alert if the Operating System is unsupported.</description>
+    <defaultVal>false</defaultVal>
+  </variable>
+  <variable idx='2'>
+    <name>AlertOnNonC2R</name>
+    <type>boolean</type>
+    <direction>false</direction>
+    <description>Alert if system is running a non-C2R edition of Office.</description>
+    <defaultVal>false</defaultVal>
+  </variable>
+  <variable idx='3'>
+    <name>AlertOnChannel</name>
+    <type>boolean</type>
+    <direction>false</direction>
+    <description>Alert if system is running a channel not supported by the monitor.</description>
+    <defaultVal>true</defaultVal>
+  </variable>
+  <variable idx='4'>
+    <name>AlertOnDisabled</name>
+    <type>boolean</type>
+    <direction>false</direction>
+    <description>Alert if Office automatic updates are disabled by policy</description>
+    <defaultVal>true</defaultVal>
+  </variable>
+</component>

@@ -1,0 +1,27 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>Windows 11 Readiness Check [WIN]</name>
+    <category>scripts</category>
+    <description>Uses Microsoft's official readiness check script to check if the machine is capable of running Windows 11. Outputs the results both to output and a UDF if selected. Uses https://aka.ms/HWReadinessScript.</description>
+    <uid>a4662b2d-4485-47e0-b7c1-11284e1e3f95</uid>
+    <hash />
+    <version>3</version>
+    <timeout>3600</timeout>
+    <securityLevel>1</securityLevel>
+    <installType>powershell</installType>
+  </general>
+  <variable idx='0'>
+    <name>UDFNumber</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description></description>
+    <defaultVal>1</defaultVal>
+  </variable>
+  <variable idx='1'>
+    <name>UDFOutput</name>
+    <type>boolean</type>
+    <direction>false</direction>
+    <description>Enable to store output in a UDF</description>
+    <defaultVal>true</defaultVal>
+  </variable>
+</component>

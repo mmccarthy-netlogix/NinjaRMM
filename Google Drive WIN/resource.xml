@@ -1,0 +1,14 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>Google Drive [WIN]</name>
+    <category>applications</category>
+    <description>Installs Google Drive with the following command line options: --silent --desktop_shortcut --gsuite_shortcuts=false</description>
+    <uid>ab68748a-3609-4b1e-a5e5-c91466a4c16c</uid>
+    <hash />
+    <version>22</version>
+    <timeout>900</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>powershell</installType>
+    <uninstallType />
+  </general>
+</component>

@@ -1,0 +1,22 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Job Execution Monitor</name>
+    <category>monitors</category>
+    <description>Original script pulled from Community Comstore
+Written by Michael McCool
+https://community.datto.com/t5/Community-ComStore/WIN-PS-Datto-RMM-Agent-Job-Execution-Monitor/m-p/96542#M2381</description>
+    <uid>74ca6719-ac45-431f-a84e-0533487cf991</uid>
+    <hash />
+    <version>12</version>
+    <timeout>60</timeout>
+    <securityLevel>4</securityLevel>
+    <installType>powershell</installType>
+  </general>
+  <variable idx='0'>
+    <name>Days</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>Number of previous days to check</description>
+    <defaultVal>3</defaultVal>
+  </variable>
+</component>

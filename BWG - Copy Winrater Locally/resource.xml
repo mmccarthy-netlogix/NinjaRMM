@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>BWG - Copy Winrater Locally</name>
+    <category>scripts</category>
+    <description>Uses Robocopy to make a copy of  \\192.168.7.8\WINRATER to C:\Program Files (x86)\Winrater</description>
+    <uid>fae5b981-c65c-460a-a624-5c6e02562bb5</uid>
+    <hash />
+    <version>5</version>
+    <timeout>3600</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>powershell</installType>
+  </general>
+</component>

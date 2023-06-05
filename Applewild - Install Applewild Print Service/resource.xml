@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>Applewild - Install Applewild Print Service</name>
+    <category>scripts</category>
+    <description></description>
+    <uid>5f403650-260c-4319-8cf7-a096f3657169</uid>
+    <hash>669eebd6a2fe95b0c9b25ac5ed586298</hash>
+    <version>15</version>
+    <timeout>3600</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>powershell</installType>
+  </general>
+</component>

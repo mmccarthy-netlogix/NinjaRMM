@@ -1,0 +1,15 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>MPS - Map Network Drives</name>
+    <category>scripts</category>
+    <description>Maps:
+M: - \\MPS-DC01\Data2\MPSData
+W: - \\MPS-DC01\Working</description>
+    <uid>6e667494-4e70-47d6-beed-35606933f37f</uid>
+    <hash />
+    <version>1</version>
+    <timeout>3600</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>powershell</installType>
+  </general>
+</component>

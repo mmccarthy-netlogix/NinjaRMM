@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Sophos Testing</name>
+    <category>scripts</category>
+    <description></description>
+    <uid>0a8ce083-a163-4ac1-b092-c8d6cc688f2b</uid>
+    <hash>396d726cc6e945e40108b7b2be797759</hash>
+    <version>5</version>
+    <timeout>3600</timeout>
+    <securityLevel>5</securityLevel>
+    <installType>powershell</installType>
+  </general>
+</component>

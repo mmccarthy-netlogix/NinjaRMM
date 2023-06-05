@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Check Default Domain Administrator</name>
+    <category>scripts</category>
+    <description>Checks to see if the default domain Administrator account is still enabled even if it has been renamed.</description>
+    <uid>13a72f9f-6281-4f6f-8dba-86065c79cfa9</uid>
+    <hash />
+    <version>8</version>
+    <timeout>3600</timeout>
+    <securityLevel>2</securityLevel>
+    <installType>powershell</installType>
+  </general>
+</component>

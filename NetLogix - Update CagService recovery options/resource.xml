@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Update CagService recovery options</name>
+    <category>scripts</category>
+    <description>Changes reset count time to 24 hours, and service restart times to 1 minute for first and second failure, 5 minutes for any additional failures</description>
+    <uid>fa37f809-6ab8-4115-920d-5738f60606a1</uid>
+    <hash />
+    <version>6</version>
+    <timeout>300</timeout>
+    <securityLevel>5</securityLevel>
+    <installType>batch</installType>
+  </general>
+</component>

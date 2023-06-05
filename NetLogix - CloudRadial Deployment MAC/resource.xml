@@ -1,0 +1,27 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - CloudRadial Deployment [MAC]</name>
+    <category>scripts</category>
+    <description>Company ID must be set via site variable CRCompanyIDSite</description>
+    <uid>8f4b1411-eac0-4d26-944a-9e4a88207ac0</uid>
+    <hash />
+    <version>9</version>
+    <timeout>3600</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>unix</installType>
+  </general>
+  <variable idx='0'>
+    <name>ServiceEndpoint</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>Service Endpoint URL.  Default: https://netlogix.services-us6.cloudradial.com</description>
+    <defaultVal>https://netlogix.services-us6.cloudradial.com</defaultVal>
+  </variable>
+  <variable idx='1'>
+    <name>PartnerURL</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>Partner URL.  Default: https://netlogix.us.cloudradial.com</description>
+    <defaultVal>https://netlogix.us.cloudradial.com</defaultVal>
+  </variable>
+</component>

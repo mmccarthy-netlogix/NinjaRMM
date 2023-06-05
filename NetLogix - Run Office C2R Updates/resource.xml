@@ -1,0 +1,49 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Run Office C2R Updates</name>
+    <category>scripts</category>
+    <description>Forces MS Office to download the latest updated for the update channel that is currently configured.
+
+Optional: Change the update channel used by Office to get updates.</description>
+    <uid>f831d98c-eb73-4257-8368-5e39525b3a7e</uid>
+    <hash />
+    <version>13</version>
+    <timeout>3600</timeout>
+    <securityLevel>5</securityLevel>
+    <installType>powershell</installType>
+  </general>
+  <variable idx='0'>
+    <name>ChangeUpdateChannel</name>
+    <type>boolean</type>
+    <direction>false</direction>
+    <description>Change Update Channel toggle</description>
+    <defaultVal>false</defaultVal>
+  </variable>
+  <variable idx='1'>
+    <name>UpdateChannel</name>
+    <selectionKeyValue idx='0'>
+      <name>Current</name>
+      <value>Current</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='1'>
+      <name>CurrentPreview</name>
+      <value>CurrentPreview</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='2'>
+      <name>MonthlyEnterprise</name>
+      <value>MonthlyEnterprise</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='3'>
+      <name>SemiAnnual</name>
+      <value>SemiAnnual</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='4'>
+      <name>SemiAnnualPreview</name>
+      <value>SemiAnnualPreview</value>
+    </selectionKeyValue>
+    <type>map</type>
+    <direction>false</direction>
+    <description></description>
+    <defaultVal>Current</defaultVal>
+  </variable>
+</component>

@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Run cleanup.bat</name>
+    <category>scripts</category>
+    <description></description>
+    <uid>f2c21261-bf5d-4532-bb54-654009166b3b</uid>
+    <hash />
+    <version>4</version>
+    <timeout>3600</timeout>
+    <securityLevel>5</securityLevel>
+    <installType>batch</installType>
+  </general>
+</component>

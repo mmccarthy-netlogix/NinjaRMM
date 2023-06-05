@@ -1,0 +1,20 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Set System Time via Internet [WIN]</name>
+    <category>scripts</category>
+    <description>Attempts to set the system's time to the correct local value using an NTP server. If the device is domain-joined, attempts will first be made to set the time using the domain controller.</description>
+    <uid>54b73b63-ccc0-411b-a107-61b5d88bb89e</uid>
+    <hash />
+    <version>5</version>
+    <timeout>3600</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>powershell</installType>
+  </general>
+  <variable idx='0'>
+    <name>usrServer</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>Place an NTP server here if you have a preference. NTP.org will be used if this is left blank.</description>
+    <defaultVal></defaultVal>
+  </variable>
+</component>

@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Defender Antispyware Status</name>
+    <category>monitors</category>
+    <description></description>
+    <uid>78436cd4-c845-4779-ae46-454520d2cfbb</uid>
+    <hash />
+    <version>10</version>
+    <timeout>60</timeout>
+    <securityLevel>5</securityLevel>
+    <installType>powershell</installType>
+  </general>
+</component>

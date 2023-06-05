@@ -1,0 +1,212 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Duo Deploment [WIN]</name>
+    <category>scripts</category>
+    <description></description>
+    <uid>f87d07ec-30b5-4fdf-b277-d4d15752c3a5</uid>
+    <hash />
+    <version>43</version>
+    <timeout>3600</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>powershell</installType>
+  </general>
+  <variable idx='0'>
+    <name>IntegrationKey</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>Integration key from the application configuration in Duo</description>
+    <defaultVal />
+  </variable>
+  <variable idx='1'>
+    <name>SecretKey</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>Secret key from the application configuration in Duo</description>
+    <defaultVal />
+  </variable>
+  <variable idx='2'>
+    <name>APIHostname</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>API Hostname from the application configuration in Duo</description>
+    <defaultVal />
+  </variable>
+  <variable idx='3'>
+    <name>Autopush</name>
+    <selectionKeyValue idx='0'>
+      <name>0</name>
+      <value>0</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='1'>
+      <name>1</name>
+      <value>1</value>
+    </selectionKeyValue>
+    <type>map</type>
+    <direction>false</direction>
+    <description>1 to automatically send a push request, or 0 to disable automatic push</description>
+    <defaultVal>0</defaultVal>
+  </variable>
+  <variable idx='4'>
+    <name>FailOpen</name>
+    <selectionKeyValue idx='0'>
+      <name>0</name>
+      <value>0</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='1'>
+      <name>1</name>
+      <value>1</value>
+    </selectionKeyValue>
+    <type>map</type>
+    <direction>false</direction>
+    <description>1 to allow access when Duo's service is unreachable, or 0 to block access without Duo MFA</description>
+    <defaultVal>1</defaultVal>
+  </variable>
+  <variable idx='5'>
+    <name>RDPOnly</name>
+    <selectionKeyValue idx='0'>
+      <name>0</name>
+      <value>0</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='1'>
+      <name>1</name>
+      <value>1</value>
+    </selectionKeyValue>
+    <type>map</type>
+    <direction>false</direction>
+    <description>1 to only require Duo for remote logons, or 0 to require Duo for console and RDP logons</description>
+    <defaultVal>0</defaultVal>
+  </variable>
+  <variable idx='6'>
+    <name>SmartCard</name>
+    <selectionKeyValue idx='0'>
+      <name>0</name>
+      <value>0</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='1'>
+      <name>1</name>
+      <value>1</value>
+    </selectionKeyValue>
+    <type>map</type>
+    <direction>false</direction>
+    <description>1 to allow smart card login as an alternative to Duo, or 0 to disable the Windows smart card provider</description>
+    <defaultVal>0</defaultVal>
+  </variable>
+  <variable idx='7'>
+    <name>WrapSmartCard</name>
+    <selectionKeyValue idx='0'>
+      <name>0</name>
+      <value>0</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='1'>
+      <name>1</name>
+      <value>1</value>
+    </selectionKeyValue>
+    <type>map</type>
+    <direction>false</direction>
+    <description>1 to require Duo after smart card primary logon, or 0 to allow smart card logon without Duo approval afterward</description>
+    <defaultVal>0</defaultVal>
+  </variable>
+  <variable idx='8'>
+    <name>EnableOffline</name>
+    <selectionKeyValue idx='0'>
+      <name>0</name>
+      <value>0</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='1'>
+      <name>1</name>
+      <value>1</value>
+    </selectionKeyValue>
+    <type>map</type>
+    <direction>false</direction>
+    <description>1 to enable offline access (subject to the configuration in the Admin Panel), or 0 to completely disable offline access on the target system</description>
+    <defaultVal>1</defaultVal>
+  </variable>
+  <variable idx='9'>
+    <name>UsernameFormat</name>
+    <selectionKeyValue idx='0'>
+      <name>0</name>
+      <value>0</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='1'>
+      <name>1</name>
+      <value>1</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='2'>
+      <name>2</name>
+      <value>2</value>
+    </selectionKeyValue>
+    <type>map</type>
+    <direction>false</direction>
+    <description>The username format sent to Duo. One of: 0 for sAMAccountName (narroway), 1 for the NTLM domain and username (ACME\narroway), or 2 for the userPrincipalName (narroway@acme.corp)</description>
+    <defaultVal>1</defaultVal>
+  </variable>
+  <variable idx='10'>
+    <name>UAC_ProtectedMode</name>
+    <selectionKeyValue idx='0'>
+      <name>0</name>
+      <value>0</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='1'>
+      <name>1</name>
+      <value>1</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='2'>
+      <name>2</name>
+      <value>2</value>
+    </selectionKeyValue>
+    <type>map</type>
+    <direction>false</direction>
+    <description>	0 to respect existing Duo authentication control around logon
+1 to Disable Duo at logon and only prompt during User Elevation
+2 to enforce Duo at logon and User Elevation</description>
+    <defaultVal>0</defaultVal>
+  </variable>
+  <variable idx='11'>
+    <name>UAC_Offline</name>
+    <selectionKeyValue idx='0'>
+      <name>0</name>
+      <value>0</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='1'>
+      <name>1</name>
+      <value>1</value>
+    </selectionKeyValue>
+    <type>map</type>
+    <direction>false</direction>
+    <description>0 to disable Offline Access for User Elevation
+1 to enable Offline Access for User Elevation</description>
+    <defaultVal>1</defaultVal>
+  </variable>
+  <variable idx='12'>
+    <name>UAC_Offline_Enroll</name>
+    <selectionKeyValue idx='0'>
+      <name>0</name>
+      <value>0</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='1'>
+      <name>1</name>
+      <value>1</value>
+    </selectionKeyValue>
+    <type>map</type>
+    <direction>false</direction>
+    <description>0 to prevent Offline Enrollment during User Elevation
+1 to Enable Offline Enrollment during User Elevation</description>
+    <defaultVal>1</defaultVal>
+  </variable>
+  <variable idx='13'>
+    <name>SiteOverride</name>
+    <selectionKeyValue idx='0'>
+      <name>True</name>
+      <value>True</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='1'>
+      <name>False</name>
+      <value>False</value>
+    </selectionKeyValue>
+    <type>map</type>
+    <direction>false</direction>
+    <description>True: Use run-time variables
+False: Use site level variables</description>
+    <defaultVal>False</defaultVal>
+  </variable>
+</component>

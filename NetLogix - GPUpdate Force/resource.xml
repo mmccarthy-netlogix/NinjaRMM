@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - GPUpdate /Force</name>
+    <category>scripts</category>
+    <description></description>
+    <uid>7cf63937-a5a9-4ec9-8cfe-795230b373b6</uid>
+    <hash />
+    <version>6</version>
+    <timeout>3600</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>batch</installType>
+  </general>
+</component>

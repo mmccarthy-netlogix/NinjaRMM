@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Disable O365 Autodiscover [WIN]</name>
+    <category>scripts</category>
+    <description></description>
+    <uid>7c414770-6078-494f-88b5-6f71d0422dd6</uid>
+    <hash />
+    <version>2</version>
+    <timeout>3600</timeout>
+    <securityLevel>1</securityLevel>
+    <installType>powershell</installType>
+  </general>
+</component>

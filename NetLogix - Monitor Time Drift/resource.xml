@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Monitor Time Drift</name>
+    <category>monitors</category>
+    <description></description>
+    <uid>74927d5c-37da-4929-97e6-a1e826bdb9e5</uid>
+    <hash />
+    <version>5</version>
+    <timeout>60</timeout>
+    <securityLevel>4</securityLevel>
+    <installType>powershell</installType>
+  </general>
+</component>

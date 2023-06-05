@@ -1,0 +1,95 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>Sophos Central Deployment [WIN]</name>
+    <category>monitors</category>
+    <description>Installs Sophos Endpoint with the Thin Installer. 
+
+You choose which products to install (instead of the other version of this component that uses defaults.) 
+
+Relies on Site Variables being properly populated:
+* SophosCustToken 
+
+Setup Instructions found here: https://community.sophos.com/sophos-central-integrations/w/integrations/59/datto-rmm</description>
+    <uid>452ab8cd-4043-49d3-8ff1-e17091a8c1b3</uid>
+    <hash />
+    <version>7</version>
+    <timeout>3600</timeout>
+    <securityLevel>4</securityLevel>
+    <installType>powershell</installType>
+  </general>
+  <variable idx='0'>
+    <name>CompetitiveRemovalBypass</name>
+    <type>boolean</type>
+    <direction>false</direction>
+    <description />
+    <defaultVal>false</defaultVal>
+  </variable>
+  <variable idx='1'>
+    <name>SophosDeviceEncryption</name>
+    <type>boolean</type>
+    <direction>false</direction>
+    <description>Install Sophos Device Encryption? ***Not Supported on Server***</description>
+    <defaultVal>false</defaultVal>
+  </variable>
+  <variable idx='2'>
+    <name>QuietInstall</name>
+    <type>boolean</type>
+    <direction>false</direction>
+    <description />
+    <defaultVal>true</defaultVal>
+  </variable>
+  <variable idx='3'>
+    <name>SophosEndpointSelection</name>
+    <selectionKeyValue idx='0'>
+      <name>Central Endpoint Protection</name>
+      <value>antivirus</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='1'>
+      <name>Intercept X Advanced</name>
+      <value>antivirus,intercept</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='2'>
+      <name>Intercept X Advanced with MTR</name>
+      <value>antivirus,intercept,mdr</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='3'>
+      <name>Intercept X Only</name>
+      <value>intercept</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='4'>
+      <name>None</name>
+      <value>none</value>
+    </selectionKeyValue>
+    <type>map</type>
+    <direction>false</direction>
+    <description>Select the Endpoint product to install. This should match the license that was selected in the Sophos Central Partner Dashboard.</description>
+    <defaultVal>Intercept X Advanced</defaultVal>
+  </variable>
+  <variable idx='4'>
+    <name>SophosServerSelection</name>
+    <selectionKeyValue idx='0'>
+      <name>Central Endpoint Protection</name>
+      <value>antivirus</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='1'>
+      <name>Intercept X Advanced</name>
+      <value>antivirus,intercept</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='2'>
+      <name>Intercept X Advanced with MTR</name>
+      <value>antivirus,intercept,mdr</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='3'>
+      <name>Intercept X Only</name>
+      <value>intercept</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='4'>
+      <name>None</name>
+      <value>none</value>
+    </selectionKeyValue>
+    <type>map</type>
+    <direction>false</direction>
+    <description>Select the Server product to install. This should match the license that was selected in the Sophos Central Partner Dashboard.</description>
+    <defaultVal>Intercept X Advanced</defaultVal>
+  </variable>
+</component>

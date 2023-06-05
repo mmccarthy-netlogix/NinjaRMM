@@ -1,0 +1,20 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Test File Creation Monitor</name>
+    <category>scripts</category>
+    <description></description>
+    <uid>b9c61ef0-7bec-4c3e-8d7e-719371060c20</uid>
+    <hash />
+    <version>15</version>
+    <timeout>3600</timeout>
+    <securityLevel>5</securityLevel>
+    <installType>powershell</installType>
+  </general>
+  <variable idx='0'>
+    <name>FileToBeFound</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>File to be located</description>
+    <defaultVal />
+  </variable>
+</component>

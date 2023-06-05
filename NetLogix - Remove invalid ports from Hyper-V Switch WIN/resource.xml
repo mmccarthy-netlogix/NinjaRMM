@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Remove invalid ports from Hyper-V Switch [WIN]</name>
+    <category>scripts</category>
+    <description>Removes invalid port entries from the registry located in HKLM\SYSTEM\CurrentControlSet\Services\vmsmp\parameters\SwitchList</description>
+    <uid>ca75c721-af98-45ae-94f1-5d4fce58e14b</uid>
+    <hash />
+    <version>10</version>
+    <timeout>3600</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>powershell</installType>
+  </general>
+</component>

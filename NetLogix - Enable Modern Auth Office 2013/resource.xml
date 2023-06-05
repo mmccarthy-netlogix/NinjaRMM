@@ -1,0 +1,17 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Enable Modern Auth Office 2013</name>
+    <category>scripts</category>
+    <description>Enabled Modern Authentication in Office 2013 by setting the following registry values:
+
+HKEY_CURRENT_USER\Software\Microsoft\Exchange\AlwaysUseMSOAuthForAutoDiscover	REG_DWORD	1
+HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Common\Identity\EnableADAL	REG_DWORD	1
+HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Common\Identity\Version	REG_DWORD	1</description>
+    <uid>6699e238-468a-4f50-bc6d-4c2bad3df3c4</uid>
+    <hash />
+    <version>4</version>
+    <timeout>3600</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>powershell</installType>
+  </general>
+</component>

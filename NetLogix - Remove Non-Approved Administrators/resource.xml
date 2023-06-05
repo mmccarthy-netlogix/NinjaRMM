@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Remove Non-Approved Administrators</name>
+    <category>scripts</category>
+    <description></description>
+    <uid>7e583470-c10d-4312-8ccc-46f73a5e2428</uid>
+    <hash />
+    <version>10</version>
+    <timeout>3600</timeout>
+    <securityLevel>5</securityLevel>
+    <installType>powershell</installType>
+  </general>
+</component>

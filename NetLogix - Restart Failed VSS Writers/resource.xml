@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Restart Failed VSS Writers</name>
+    <category>scripts</category>
+    <description>Attempted to restart services related with VSS writers with the exception of NTDS</description>
+    <uid>96f4640a-f169-49c6-a164-08326ddab921</uid>
+    <hash />
+    <version>6</version>
+    <timeout>3600</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>powershell</installType>
+  </general>
+</component>

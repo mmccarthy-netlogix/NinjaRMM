@@ -1,0 +1,34 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>Office C2R Update Status</name>
+    <category>scripts</category>
+    <description>Checks the current installed version and if it is less than X days out of date, it will report as current. Also reports details about the C2R channel and version/build information.</description>
+    <uid>0a2ac6fb-6a38-448f-9e30-f7cd00026590</uid>
+    <hash />
+    <version>3</version>
+    <timeout>3600</timeout>
+    <securityLevel>5</securityLevel>
+    <installType>powershell</installType>
+  </general>
+  <variable idx='0'>
+    <name>MaxAge</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>Maximum age in days</description>
+    <defaultVal>10</defaultVal>
+  </variable>
+  <variable idx='1'>
+    <name>FailUnsupported</name>
+    <type>boolean</type>
+    <direction>false</direction>
+    <description>Fail the script if an unsupported C2R channel is in use.</description>
+    <defaultVal>false</defaultVal>
+  </variable>
+  <variable idx='2'>
+    <name>FailNonC2R</name>
+    <type>boolean</type>
+    <direction>false</direction>
+    <description>Fail the script if a non-C2R install of Office is found.</description>
+    <defaultVal>false</defaultVal>
+  </variable>
+</component>

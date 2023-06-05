@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>Bates Fullam - Map Scan Drive on Startup</name>
+    <category>scripts</category>
+    <description>This component creates a batch file that is placed in $ENV:ProgramData\Microsoft\Windows\Start Menu\Programs\Startup to map the S: drive</description>
+    <uid>fefc012b-f0ed-4f93-a52c-bd4810435f85</uid>
+    <hash />
+    <version>5</version>
+    <timeout>3600</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>powershell</installType>
+  </general>
+</component>

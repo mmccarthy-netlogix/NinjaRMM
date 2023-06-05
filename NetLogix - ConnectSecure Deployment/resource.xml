@@ -1,0 +1,35 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - ConnectSecure Deployment</name>
+    <category>scripts</category>
+    <description>Variables that need to be set at the site level:
+CSCompanyID
+CSClientID
+CSClientSecret</description>
+    <uid>dc15dab8-4e88-4595-9a76-2f27178f18d4</uid>
+    <hash />
+    <version>32</version>
+    <timeout>3600</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>powershell</installType>
+  </general>
+  <variable idx='0'>
+    <name>DeploymentType</name>
+    <selectionKeyValue idx='0'>
+      <name>Probe</name>
+      <value>Probe</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='1'>
+      <name>Lightweight</name>
+      <value>Lightweight</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='2'>
+      <name>One-time Scan</name>
+      <value>Scan</value>
+    </selectionKeyValue>
+    <type>map</type>
+    <direction>false</direction>
+    <description></description>
+    <defaultVal>Lightweight</defaultVal>
+  </variable>
+</component>

@@ -1,0 +1,40 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Monitor Office Click2Run Channel [WIN]</name>
+    <category>monitors</category>
+    <description>Monitors the office C2R channel. Will alert if channel does not match existing.
+
+Required OS: Windows 10 and up.
+
+Related blog: https://www.cyberdrain.com/monitoring-with-powershell-monitoring-office-c2r-updates/</description>
+    <uid>10e80c51-a23a-4c25-bda4-df560350f8d8</uid>
+    <hash />
+    <version>6</version>
+    <timeout>60</timeout>
+    <securityLevel>4</securityLevel>
+    <installType>powershell</installType>
+  </general>
+  <variable idx='0'>
+    <name>Channel</name>
+    <selectionKeyValue idx='0'>
+      <name>Semi-Annual Channel (Targeted)</name>
+      <value>Semi-Annual Channel (Targeted)</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='1'>
+      <name>Monthly Channel (Targeted)</name>
+      <value>Monthly Channel (Targeted)</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='2'>
+      <name>Monthly Channel</name>
+      <value>Monthly Channel</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='3'>
+      <name>Semi-Annual Channel</name>
+      <value>Semi-Annual Channel</value>
+    </selectionKeyValue>
+    <type>map</type>
+    <direction>false</direction>
+    <description>Select the channel you expect clients to be in.</description>
+    <defaultVal>Monthly Channel</defaultVal>
+  </variable>
+</component>

@@ -1,0 +1,38 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Monitor Office Click2Run Version [WIN]</name>
+    <category>monitors</category>
+    <description>Monitors the version and updates of Office C2R installations.
+
+Required OS: W10 and up.
+
+Related blog: https://www.cyberdrain.com/monitoring-with-powershell-monitoring-office-c2r-updates/</description>
+    <uid>ded92a8f-9d5d-4627-ac57-a202bcb82046</uid>
+    <hash />
+    <version>8</version>
+    <timeout>60</timeout>
+    <securityLevel>4</securityLevel>
+    <installType>powershell</installType>
+  </general>
+  <variable idx='0'>
+    <name>usrBuildMajor</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>For version information visit https://docs.microsoft.com/en-us/officeupdates/update-history-office365-proplus-by-date</description>
+    <defaultVal>16130</defaultVal>
+  </variable>
+  <variable idx='1'>
+    <name>Alert</name>
+    <type>string</type>
+    <direction>true</direction>
+    <description></description>
+    <defaultVal></defaultVal>
+  </variable>
+  <variable idx='2'>
+    <name>usrBuildMinor</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description />
+    <defaultVal>20306</defaultVal>
+  </variable>
+</component>

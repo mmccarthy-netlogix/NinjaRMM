@@ -1,0 +1,41 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Map Drive on Startup</name>
+    <category>scripts</category>
+    <description>This component creates a batch file that is placed in $ENV:ProgramData\Microsoft\Windows\Start Menu\Programs\Startup</description>
+    <uid>65c19306-9c6c-4bb5-8573-c4de6910e12a</uid>
+    <hash />
+    <version>8</version>
+    <timeout>3600</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>powershell</installType>
+  </general>
+  <variable idx='0'>
+    <name>usrDrive</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>Drive letter to be mapped</description>
+    <defaultVal>Z</defaultVal>
+  </variable>
+  <variable idx='1'>
+    <name>usrSharePath</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>UNC path to be mapped</description>
+    <defaultVal>\\192.168.1.1\Share</defaultVal>
+  </variable>
+  <variable idx='2'>
+    <name>usrUser</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>Username to be used to connect to the UNC path</description>
+    <defaultVal>User</defaultVal>
+  </variable>
+  <variable idx='3'>
+    <name>usrPassword</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>Password to be used to connect to the UNC path</description>
+    <defaultVal>Password1</defaultVal>
+  </variable>
+</component>

@@ -1,0 +1,20 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Disable Local User Accounts</name>
+    <category>scripts</category>
+    <description></description>
+    <uid>2e7143bb-a316-4711-a6f9-8866730bdc9f</uid>
+    <hash />
+    <version>9</version>
+    <timeout>3600</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>powershell</installType>
+  </general>
+  <variable idx='0'>
+    <name>usrDisableUsers</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>Comma separated list of local user accounts to disable</description>
+    <defaultVal />
+  </variable>
+</component>

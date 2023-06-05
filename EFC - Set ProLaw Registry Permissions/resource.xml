@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>EFC - Set ProLaw Registry Permissions</name>
+    <category>scripts</category>
+    <description>Updated permissions on HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\dfshim.dll and HKLM:\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\App Paths\dfshim.dll</description>
+    <uid>ca283e8e-8de8-4aa6-ad9f-fa764c8abd72</uid>
+    <hash />
+    <version>7</version>
+    <timeout>3600</timeout>
+    <securityLevel>1</securityLevel>
+    <installType>powershell</installType>
+  </general>
+</component>

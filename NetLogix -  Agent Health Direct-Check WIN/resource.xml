@@ -1,0 +1,20 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix -  Agent Health Direct-Check [WIN]</name>
+    <category>scripts</category>
+    <description>Use Direct-Check to check a Windows system's connectivity to the Datto RMM platform alongside a series of other checks designed to ensure the system is working at its best. Errors found will be populated into StdOut and, if enabled, a UDF, the contents of which can be cross-referenced at https://dat.to/ahckey.</description>
+    <uid>4decac35-fc68-43a2-b087-139aec3601c5</uid>
+    <hash />
+    <version>5</version>
+    <timeout>3600</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>powershell</installType>
+  </general>
+  <variable idx='0'>
+    <name>usrUDF</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>What UDF (1-30) to put summary data into. Leave at 0 to not write a UDF.</description>
+    <defaultVal>0</defaultVal>
+  </variable>
+</component>

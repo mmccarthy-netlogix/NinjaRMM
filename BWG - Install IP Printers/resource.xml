@@ -1,0 +1,15 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>BWG - Install IP Printers</name>
+    <category>scripts</category>
+    <description>Worcester - Konica Minolta BizHub C458
+Leominster - Konica Minolta BizHub C258
+Millbury - Konica Minolta BizHub C368</description>
+    <uid>c316638b-fca1-4051-ac62-5e6ec051bec7</uid>
+    <hash>1bead9c62cf52465804bcdbb68edf2cf</hash>
+    <version>21</version>
+    <timeout>3600</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>powershell</installType>
+  </general>
+</component>

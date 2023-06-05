@@ -1,0 +1,27 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - CW Control URL in UDF [WIN]</name>
+    <category>scripts</category>
+    <description>Use this Component to place a link to control a device from ConnectWise Control (Screen Connect) into a UDF on the device. You will require the details from an active ConnectWise Control subscription. Thanks to RisolvIT.</description>
+    <uid>9507706b-238b-4577-b57e-ad37d3c47022</uid>
+    <hash />
+    <version>13</version>
+    <timeout>120</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>powershell</installType>
+  </general>
+  <variable idx='0'>
+    <name>usrUDF</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>Which UDF number to place the link into. Numbers 1-30 accepted.</description>
+    <defaultVal>5</defaultVal>
+  </variable>
+  <variable idx='1'>
+    <name>usrCCInstance</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>Get this from Add/Remove Programs or Services.msc.  It will be listed as ScreenConnect Client (xxxxxxxxxxxxxxxx)</description>
+    <defaultVal>7130ec5c02345159</defaultVal>
+  </variable>
+</component>

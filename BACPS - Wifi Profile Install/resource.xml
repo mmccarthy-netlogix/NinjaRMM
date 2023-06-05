@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>BACPS - Wifi Profile (Install)</name>
+    <category>scripts</category>
+    <description></description>
+    <uid>787b6dc1-9405-4070-aaa3-76ad6edda191</uid>
+    <hash>16432571cd217e766bd5efcc2ec5afb8</hash>
+    <version>6</version>
+    <timeout>3600</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>batch</installType>
+  </general>
+</component>

@@ -1,0 +1,32 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>IT-Glue Automatic Documentation - M365 Admin Logs [WIN]</name>
+    <category>scripts</category>
+    <description>Documents current logbooks for M365 admins
+Minimum Required OS: 2012R2+
+
+Requires setup of M365 components first. Please see documentation at help.rmm.datto.com under the CyberDrain section of the Components spreadsheet.
+
+Related blog: https://www.cyberdrain.com/documenting-with-powershell-documenting-admin-actions/</description>
+    <uid>f1730570-8476-40f7-b367-d183fb02d121</uid>
+    <hash />
+    <version>3</version>
+    <timeout>3600</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>powershell</installType>
+  </general>
+  <variable idx='0'>
+    <name>ITGlueAPIKey</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>IT-Glue API key</description>
+    <defaultVal></defaultVal>
+  </variable>
+  <variable idx='1'>
+    <name>ITGlueURL</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>API URL IT-Glue</description>
+    <defaultVal>https://api.eu.itglue.com</defaultVal>
+  </variable>
+</component>

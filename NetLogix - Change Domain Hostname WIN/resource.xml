@@ -1,0 +1,29 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Change Domain Hostname [WIN]</name>
+    <category>scripts</category>
+    <description>Change the hostname of a Windows device. Changes do not take effect until after a reboot.
+
+Reboot can be initiated by this component</description>
+    <uid>fbb67db5-5fd5-4e8c-b06d-8a4a31365d6c</uid>
+    <hash />
+    <version>6</version>
+    <timeout>3600</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>powershell</installType>
+  </general>
+  <variable idx='0'>
+    <name>usrNewName</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>New hostname for the device</description>
+    <defaultVal>NewName</defaultVal>
+  </variable>
+  <variable idx='1'>
+    <name>usrReboot</name>
+    <type>boolean</type>
+    <direction>false</direction>
+    <description>Reboot the system afterwards to forcibly initiate hostname changeover?</description>
+    <defaultVal>false</defaultVal>
+  </variable>
+</component>

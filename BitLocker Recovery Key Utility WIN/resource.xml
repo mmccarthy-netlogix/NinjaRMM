@@ -1,0 +1,140 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>BitLocker Recovery Key Utility [WIN]</name>
+    <category>scripts</category>
+    <description>Saves the BitLocker recovery key to a user-defined UDF. If C:\ is not encrypted, it checks the status of the TPM on the system and reports that to the UDF instead. Component kindly supplied by Michael McCool on the Datto Community ComStore.</description>
+    <uid>eca3fa9f-ccfa-4401-a511-1457cc603b73</uid>
+    <hash />
+    <version>5</version>
+    <timeout>300</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>powershell</installType>
+  </general>
+  <variable idx='0'>
+    <name>CustomUDF</name>
+    <selectionKeyValue idx='0'>
+      <name>UDF1</name>
+      <value>Custom1</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='1'>
+      <name>UDF2</name>
+      <value>Custom2</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='2'>
+      <name>UDF3</name>
+      <value>Custom3</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='3'>
+      <name>UDF4</name>
+      <value>Custom4</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='4'>
+      <name>UDF5</name>
+      <value>Custom5</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='5'>
+      <name>UDF6</name>
+      <value>Custom6</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='6'>
+      <name>UDF7</name>
+      <value>Custom7</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='7'>
+      <name>UDF8</name>
+      <value>Custom8</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='8'>
+      <name>UDF9</name>
+      <value>Custom9</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='9'>
+      <name>UDF10</name>
+      <value>Custom10</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='10'>
+      <name>UDF11</name>
+      <value>Custom11</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='11'>
+      <name>UDF12</name>
+      <value>Custom12</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='12'>
+      <name>UDF13</name>
+      <value>Custom13</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='13'>
+      <name>UDF14</name>
+      <value>Custom14</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='14'>
+      <name>UDF15</name>
+      <value>Custom15</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='15'>
+      <name>UDF16</name>
+      <value>Custom16</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='16'>
+      <name>UDF17</name>
+      <value>Custom17</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='17'>
+      <name>UDF18</name>
+      <value>Custom18</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='18'>
+      <name>UDF19</name>
+      <value>Custom19</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='19'>
+      <name>UDF20</name>
+      <value>Custom20</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='20'>
+      <name>UDF21</name>
+      <value>Custom21</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='21'>
+      <name>UDF22</name>
+      <value>Custom22</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='22'>
+      <name>UDF23</name>
+      <value>Custom23</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='23'>
+      <name>UDF24</name>
+      <value>Custom24</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='24'>
+      <name>UDF25</name>
+      <value>Custom25</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='25'>
+      <name>UDF26</name>
+      <value>Custom26</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='26'>
+      <name>UDF27</name>
+      <value>Custom27</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='27'>
+      <name>UDF28</name>
+      <value>Custom28</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='28'>
+      <name>UDF29</name>
+      <value>Custom29</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='29'>
+      <name>UDF30</name>
+      <value>Custom30</value>
+    </selectionKeyValue>
+    <type>map</type>
+    <direction>false</direction>
+    <description>UDF field to use</description>
+    <defaultVal>UDF1</defaultVal>
+  </variable>
+</component>

@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>BACPS - Inspiration 9 (Install)</name>
+    <category>scripts</category>
+    <description></description>
+    <uid>1b900b15-1bec-4d0d-86c9-562b937d578a</uid>
+    <hash>804c3fb0e1d72fded097290a5b2ded76</hash>
+    <version>7</version>
+    <timeout>3600</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>powershell</installType>
+  </general>
+</component>

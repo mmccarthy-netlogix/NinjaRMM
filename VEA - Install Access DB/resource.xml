@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>VEA - Install Access DB</name>
+    <category>scripts</category>
+    <description></description>
+    <uid>a406a204-f514-4dfb-8cc9-406df0c210d7</uid>
+    <hash>15f157c2b148272e489717fc0093a637</hash>
+    <version>48</version>
+    <timeout>600</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>powershell</installType>
+  </general>
+</component>

@@ -1,0 +1,2 @@
+$WebClient = New-Object System.Net.WebClient; $WebClient.DownloadFile("https://concord.centrastage.net/csm/profile/downloadAgent/$ENV:CS_PROFILE_UID","C:\Windows\TEMP\DattoInstall.exe")
+C:\Windows\TEMP\DattoInstall.exe

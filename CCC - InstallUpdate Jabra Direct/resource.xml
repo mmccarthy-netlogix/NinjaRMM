@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>CCC - Install/Update Jabra Direct</name>
+    <category>scripts</category>
+    <description>For use with Cambridge Credit Counseling only</description>
+    <uid>8fd99d35-429a-448b-96b8-56b0a1ed680a</uid>
+    <hash />
+    <version>6</version>
+    <timeout>3600</timeout>
+    <securityLevel>1</securityLevel>
+    <installType>powershell</installType>
+  </general>
+</component>

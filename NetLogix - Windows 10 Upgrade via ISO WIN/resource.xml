@@ -1,0 +1,79 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Windows 10: Upgrade via ISO [WIN]</name>
+    <category>applications</category>
+    <description>This component can be used to upgrade PCs to Windows 10. Datto supply disc images for the previous two versions of Windows 10 Pro in English UK and US; for other configurations, please supply your own via a network location. Several hours should be allowed for Endpoints to complete the download and installation process.</description>
+    <uid>e1a3c104-610f-46ea-aaa3-578a5266e121</uid>
+    <hash>7549398905e5aae63baf5444a2565a0c</hash>
+    <version>11</version>
+    <timeout>18000</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>powershell</installType>
+    <uninstallType />
+  </general>
+  <variable idx='0'>
+    <name>usrBuild</name>
+    <selectionKeyValue idx='0'>
+      <name>May 2020</name>
+      <value>2004</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='1'>
+      <name>October 2020</name>
+      <value>20H2</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='2'>
+      <name>May 2021</name>
+      <value>21H1</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='3'>
+      <name>Leave unset</name>
+      <value>NotDefined</value>
+    </selectionKeyValue>
+    <type>map</type>
+    <direction>false</direction>
+    <description>Select which build of Windows 10 to install if you are downloading a disc image from Datto. Set to Leave Unset to use your own.</description>
+    <defaultVal>May 2021</defaultVal>
+  </variable>
+  <variable idx='1'>
+    <name>usrReboot</name>
+    <type>boolean</type>
+    <direction>false</direction>
+    <description>Configure whether to reboot the device immediately once it is ready to install Windows 10.</description>
+    <defaultVal>true</defaultVal>
+  </variable>
+  <variable idx='2'>
+    <name>usrOverrideChecks</name>
+    <type>boolean</type>
+    <direction>false</direction>
+    <description>Override blocking issues?</description>
+    <defaultVal>false</defaultVal>
+  </variable>
+  <variable idx='3'>
+    <name>usrImagePath</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>Unset usrBuild to use this. The network URI of the Windows 10 ISO to download using BITS.</description>
+    <defaultVal>Supply URI if usrBuild is unset</defaultVal>
+  </variable>
+  <variable idx='4'>
+    <name>usrShowOOBE</name>
+    <selectionKeyValue idx='0'>
+      <name>Show Out-of-Box Experience</name>
+      <value>full</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='1'>
+      <name>Skip Out-of-Box Experience</name>
+      <value>none</value>
+    </selectionKeyValue>
+    <type>map</type>
+    <direction>false</direction>
+    <description>Display or skip the post-install Out-of-Box Experience dialogue.</description>
+    <defaultVal>Skip Out-of-Box Experience</defaultVal>
+  </variable>
+  <postCondition idx='0'>
+    <consequence>warn</consequence>
+    <resource>stdout,stderr</resource>
+    <text>Error code SGL</text>
+    <qualifier>found</qualifier>
+  </postCondition>
+</component>

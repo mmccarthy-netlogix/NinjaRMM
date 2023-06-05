@@ -1,0 +1,27 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - File Creation Monitor [WIN]</name>
+    <category>monitors</category>
+    <description>Monitors a user-defined file path and alerts if the file exists, or if the file is absent.</description>
+    <uid>ff64e2e2-eb53-4642-857c-297b528b04b3</uid>
+    <hash />
+    <version>13</version>
+    <timeout>60</timeout>
+    <securityLevel>4</securityLevel>
+    <installType>powershell</installType>
+  </general>
+  <variable idx='0'>
+    <name>FileToBeFound</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>Absolute path to folder/file to be monitored. Do not use quote marks.</description>
+    <defaultVal></defaultVal>
+  </variable>
+  <variable idx='1'>
+    <name>usrCheckReboot</name>
+    <type>boolean</type>
+    <direction>false</direction>
+    <description>Check if the file was created before or after the latest OS startup</description>
+    <defaultVal>true</defaultVal>
+  </variable>
+</component>

@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Install WebEx</name>
+    <category>scripts</category>
+    <description>Installed Cisco WebEx app</description>
+    <uid>bb7f5c77-996a-42a4-93f4-78f550d8a124</uid>
+    <hash />
+    <version>6</version>
+    <timeout>3600</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>powershell</installType>
+  </general>
+</component>

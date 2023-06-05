@@ -1,0 +1,52 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>Zorus Agent Install/Uninstall w/ Options [WIN]</name>
+    <category>applications</category>
+    <description>8/4/2021 - MPL - Changed the token variable to ArchonToken to allow for Site level configuration.  Removed the Token variable from the component.
+
+THIRD RELEASE. Silently downloads and installs the Zorus Archon Agent using a deployment token. 
+
+OPTIONAL - Add a password that will be required to uninstall the agent.
+
+If 'Install' is set to false this will uninstall the agent instead. If a password was set on install that password is required to uninstall.
+
+If 'HideTrayIcon' is set to true the windows tray icon will not display. This will prevent the user from interacting with the agent (disabling, changing settings).
+
+If 'HideAddRemove' is set to true the Archon Agent will not appear in the Windows Add/Remove Programs tool.</description>
+    <uid>b1def4f9-13f9-497e-9498-0e61affedbdd</uid>
+    <hash />
+    <version>8</version>
+    <timeout>3600</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>powershell</installType>
+    <uninstallType />
+  </general>
+  <variable idx='0'>
+    <name>Password</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>Uninstall Password (required to uninstall the agent)</description>
+    <defaultVal></defaultVal>
+  </variable>
+  <variable idx='1'>
+    <name>Install</name>
+    <type>boolean</type>
+    <direction>false</direction>
+    <description>Set to "false" if you wish to uninstall the agent</description>
+    <defaultVal>true</defaultVal>
+  </variable>
+  <variable idx='2'>
+    <name>HideTrayIcon</name>
+    <type>boolean</type>
+    <direction>false</direction>
+    <description>If True do not display the tray icon on the endpoint.</description>
+    <defaultVal>false</defaultVal>
+  </variable>
+  <variable idx='3'>
+    <name>HideAddRemove</name>
+    <type>boolean</type>
+    <direction>false</direction>
+    <description>If True Zorus Archon Agent will not display in the Windows Add/Remove programs list</description>
+    <defaultVal>false</defaultVal>
+  </variable>
+</component>

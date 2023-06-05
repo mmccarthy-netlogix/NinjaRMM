@@ -1,0 +1,28 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Uninstall TeamViewer</name>
+    <category>scripts</category>
+    <description></description>
+    <uid>66107cb1-9169-4bd6-9880-734ea2363a06</uid>
+    <hash />
+    <version>9</version>
+    <timeout>3600</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>powershell</installType>
+  </general>
+  <variable idx='0'>
+    <name>usrRemoveAll</name>
+    <selectionKeyValue idx='0'>
+      <name>True</name>
+      <value>1</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='1'>
+      <name>False</name>
+      <value>0</value>
+    </selectionKeyValue>
+    <type>map</type>
+    <direction>false</direction>
+    <description />
+    <defaultVal>False</defaultVal>
+  </variable>
+</component>

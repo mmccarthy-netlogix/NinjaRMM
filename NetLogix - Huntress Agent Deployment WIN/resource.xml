@@ -1,0 +1,27 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Huntress Agent Deployment [WIN]</name>
+    <category>scripts</category>
+    <description>This script will install the Huntress Agent on your computers. The variable HUNTRESS_ACCOUNT_KEY must be defined with the secret key from Huntress' download section. See https://support.huntress.io/article/116-deploying-huntress-with-datto-rmm-comstore for complete details.</description>
+    <uid>68c5307d-52f5-49f3-a0ba-c6b493a3fc09</uid>
+    <hash />
+    <version>10</version>
+    <timeout>3600</timeout>
+    <securityLevel>1</securityLevel>
+    <installType>powershell</installType>
+  </general>
+  <variable idx='0'>
+    <name>reinstallAgent</name>
+    <type>boolean</type>
+    <direction>false</direction>
+    <description>This option is not normally needed. It will re-install the agent. (Useful for "repairing" an agent; this will replace all the files and restart the agent services.)</description>
+    <defaultVal>false</defaultVal>
+  </variable>
+  <variable idx='1'>
+    <name>reregisterAgent</name>
+    <type>boolean</type>
+    <direction>false</direction>
+    <description>This option is not normally need. It forces the agent to re-register after re-installing. (Useful if the agent was previously deployed with an incorrect Huntress account key. If used when not required, you may end up with duplicate agents.)</description>
+    <defaultVal>false</defaultVal>
+  </variable>
+</component>

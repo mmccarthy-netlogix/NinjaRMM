@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Reset Windows Update</name>
+    <category>scripts</category>
+    <description>Reset Windows update by removing catroot2 and SoftwareDistribution</description>
+    <uid>153bb2c8-6389-4fa5-97bb-b9709eb8b69e</uid>
+    <hash />
+    <version>16</version>
+    <timeout>3600</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>powershell</installType>
+  </general>
+</component>

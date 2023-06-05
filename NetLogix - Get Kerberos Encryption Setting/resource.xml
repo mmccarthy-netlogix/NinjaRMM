@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Get Kerberos Encryption Setting</name>
+    <category>scripts</category>
+    <description></description>
+    <uid>6a184141-00d7-4546-abaa-c1fb8a1aafcd</uid>
+    <hash />
+    <version>4</version>
+    <timeout>3600</timeout>
+    <securityLevel>5</securityLevel>
+    <installType>powershell</installType>
+  </general>
+</component>

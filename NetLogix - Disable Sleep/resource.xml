@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Disable Sleep</name>
+    <category>scripts</category>
+    <description></description>
+    <uid>1c1c1731-b3e4-4654-90a4-5ad123224c88</uid>
+    <hash />
+    <version>12</version>
+    <timeout>3600</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>powershell</installType>
+  </general>
+</component>

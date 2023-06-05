@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Set Reboot Required Flag [WIN]</name>
+    <category>scripts</category>
+    <description></description>
+    <uid>3b91a7fe-5939-4b32-ae09-094eea013456</uid>
+    <hash />
+    <version>19</version>
+    <timeout>3600</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>powershell</installType>
+  </general>
+</component>

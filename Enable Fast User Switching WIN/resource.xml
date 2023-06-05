@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>Enable Fast User Switching [WIN]</name>
+    <category>scripts</category>
+    <description></description>
+    <uid>d76602a7-3857-4c6e-a23e-f7afbeb2dbf7</uid>
+    <hash />
+    <version>7</version>
+    <timeout>3600</timeout>
+    <securityLevel>1</securityLevel>
+    <installType>powershell</installType>
+  </general>
+</component>

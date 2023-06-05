@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - ReRegister Sophos Endpoint</name>
+    <category>scripts</category>
+    <description></description>
+    <uid>e20f7c99-68a4-4d45-b11c-cd3c29c18fff</uid>
+    <hash />
+    <version>20</version>
+    <timeout>3600</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>powershell</installType>
+  </general>
+</component>

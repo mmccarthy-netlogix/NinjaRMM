@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Dymosoft Service Update</name>
+    <category>scripts</category>
+    <description></description>
+    <uid>eedd51f6-aa50-4f61-809c-2cf98110bcad</uid>
+    <hash>0a2ee4926e4f08f18f8002f3a27d114a</hash>
+    <version>2</version>
+    <timeout>3600</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>powershell</installType>
+  </general>
+</component>

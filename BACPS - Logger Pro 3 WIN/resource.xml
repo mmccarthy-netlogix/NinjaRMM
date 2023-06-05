@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>BACPS - Logger Pro 3 [WIN]</name>
+    <category>scripts</category>
+    <description>Installs/updates Logger Pro 3 to 3.16.2</description>
+    <uid>de2379c3-2359-4937-9aa8-24b4f3a6e4fb</uid>
+    <hash />
+    <version>6</version>
+    <timeout>300</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>powershell</installType>
+  </general>
+</component>

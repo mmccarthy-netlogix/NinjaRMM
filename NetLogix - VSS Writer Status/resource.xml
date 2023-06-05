@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - VSS Writer Status</name>
+    <category>scripts</category>
+    <description></description>
+    <uid>f9a30efc-0c04-42af-bd38-5fcac1776397</uid>
+    <hash />
+    <version>14</version>
+    <timeout>3600</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>powershell</installType>
+  </general>
+</component>

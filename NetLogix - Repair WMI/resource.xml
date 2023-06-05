@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Repair WMI</name>
+    <category>scripts</category>
+    <description>Tests and attempts automatic repair of WMI by resetting the WMI repository. Devices with WMI issues often report the OS as "Microsoft Windows NT", so this can be used as a custom device filter to identify probable targets.</description>
+    <uid>6b9dc927-09b7-4e17-b680-2dc8b930a85a</uid>
+    <hash />
+    <version>2</version>
+    <timeout>3600</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>powershell</installType>
+  </general>
+</component>

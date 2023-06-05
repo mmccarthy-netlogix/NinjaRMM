@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>MHXCO - Map Drive on Startup</name>
+    <category>scripts</category>
+    <description>This component creates a batch file that is placed in $ENV:ProgramData\Microsoft\Windows\Start Menu\Programs\Startup to map the M: drive</description>
+    <uid>480a4225-d7ce-4f15-bb79-41e275e89ad7</uid>
+    <hash />
+    <version>2</version>
+    <timeout>3600</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>powershell</installType>
+  </general>
+</component>

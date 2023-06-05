@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>Omni - Epicor EPayments (Install)</name>
+    <category>scripts</category>
+    <description></description>
+    <uid>055fe9bd-c7a1-4115-a78a-8e14539c53e5</uid>
+    <hash>0e84c3960c3174a6807f7e43e45741e2</hash>
+    <version>10</version>
+    <timeout>3600</timeout>
+    <securityLevel>1</securityLevel>
+    <installType>powershell</installType>
+  </general>
+</component>

@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Install HP WBEM Providers 10.61</name>
+    <category>scripts</category>
+    <description></description>
+    <uid>54ff1f66-f869-484f-ad36-0eb91bdd08a1</uid>
+    <hash>e8b1440490a502d219dd456292d40320</hash>
+    <version>5</version>
+    <timeout>3600</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>batch</installType>
+  </general>
+</component>

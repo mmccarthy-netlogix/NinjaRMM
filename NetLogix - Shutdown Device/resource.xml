@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Shutdown Device</name>
+    <category>scripts</category>
+    <description></description>
+    <uid>525ef003-bbc4-4c8a-ad47-50fc8958b1c1</uid>
+    <hash />
+    <version>6</version>
+    <timeout>3600</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>batch</installType>
+  </general>
+</component>

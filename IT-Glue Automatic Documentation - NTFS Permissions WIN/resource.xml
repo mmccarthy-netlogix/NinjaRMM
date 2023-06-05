@@ -1,0 +1,35 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>IT-Glue Automatic Documentation - NTFS Permissions [WIN]</name>
+    <category>scripts</category>
+    <description>Finds all shares and grabs the permissions 2 levels deep. Minimum Required OS: Server 2012 R2+, PS 5.0+
+Related blog: https://www.cyberdrain.com/documenting-with-powershell-chapter-5-file-share-permissions/</description>
+    <uid>6b77ac56-645f-48af-9eec-d16842d328b5</uid>
+    <hash />
+    <version>3</version>
+    <timeout>3600</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>powershell</installType>
+  </general>
+  <variable idx='0'>
+    <name>ITGlueURL</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>API URL IT-Glue</description>
+    <defaultVal>https://api.eu.itglue.com</defaultVal>
+  </variable>
+  <variable idx='1'>
+    <name>OrgID</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>Organisation ID of client.</description>
+    <defaultVal></defaultVal>
+  </variable>
+  <variable idx='2'>
+    <name>ITGlueAPIKey</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>IT-Glue API key</description>
+    <defaultVal></defaultVal>
+  </variable>
+</component>

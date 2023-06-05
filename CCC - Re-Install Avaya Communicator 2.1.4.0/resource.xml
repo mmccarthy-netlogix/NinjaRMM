@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>CCC - Re-Install Avaya Communicator 2.1.4.0</name>
+    <category>scripts</category>
+    <description>For use with Cambridge Credit Counseling only</description>
+    <uid>1a02fdc3-2e1d-45b3-9823-6f4870a96281</uid>
+    <hash />
+    <version>24</version>
+    <timeout>3600</timeout>
+    <securityLevel>1</securityLevel>
+    <installType>powershell</installType>
+  </general>
+</component>

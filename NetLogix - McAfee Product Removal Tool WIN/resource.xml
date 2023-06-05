@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - McAfee Product Removal Tool [WIN]</name>
+    <category>scripts</category>
+    <description></description>
+    <uid>e4384d10-5830-4f5f-8a6a-7539bcea2d9c</uid>
+    <hash>7576f41d81114cc39c48a760272c62f2</hash>
+    <version>16</version>
+    <timeout>3600</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>powershell</installType>
+  </general>
+</component>

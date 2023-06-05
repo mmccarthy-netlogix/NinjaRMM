@@ -1,0 +1,15 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Get SMART Data</name>
+    <category>scripts</category>
+    <description>This component uses the smartctl application to gather information on the local disks
+
+Output can be found in STDOUT</description>
+    <uid>a3c4a798-076e-48f5-b189-e8faa3bdbc3b</uid>
+    <hash>5dfe6fa218f91c2c89d689bbbb3840ba</hash>
+    <version>9</version>
+    <timeout>3600</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>powershell</installType>
+  </general>
+</component>

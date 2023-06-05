@@ -1,0 +1,65 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Software Detection Monitor [WIN]</name>
+    <category>monitors</category>
+    <description>Sounds an alert if software identifying a known string is not discovered. Can be configured with a response Component to install the software in question. Searching using a full string (as opposed to a fragment) is highly recommended.</description>
+    <uid>b41c886a-ef1e-4417-8783-bd6cffe01813</uid>
+    <hash />
+    <version>8</version>
+    <timeout>3600</timeout>
+    <securityLevel>4</securityLevel>
+    <installType>powershell</installType>
+  </general>
+  <variable idx='0'>
+    <name>usrString</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>The name of the software to look for. If usrSearch is not configured as 'defined in usrString', this is disregarded.</description>
+    <defaultVal>Software name</defaultVal>
+  </variable>
+  <variable idx='1'>
+    <name>usrSearch</name>
+    <selectionKeyValue idx='0'>
+      <name>Defined in usrString</name>
+      <value>Custom</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='1'>
+      <name>Webroot SecureAnywhere</name>
+      <value>Webroot SecureAnywhere</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='2'>
+      <name>Bitdefender GravityZone</name>
+      <value>Bitdefender Endpoint Security Tools</value>
+    </selectionKeyValue>
+    <type>map</type>
+    <direction>false</direction>
+    <description>Choose whether to search using a user-defined string (in usrString) or from a list of known applications.</description>
+    <defaultVal>Defined in usrString</defaultVal>
+  </variable>
+  <variable idx='2'>
+    <name>usrServiceCheck</name>
+    <selectionKeyValue idx='0'>
+      <name>False</name>
+      <value>FALSE</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='1'>
+      <name>AND</name>
+      <value>AND</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='2'>
+      <name>OR</name>
+      <value>OR</value>
+    </selectionKeyValue>
+    <type>map</type>
+    <direction>false</direction>
+    <description>Search for service name and/or installed application</description>
+    <defaultVal>False</defaultVal>
+  </variable>
+  <variable idx='3'>
+    <name>usrServiceName</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>Comma separated list of service names to check</description>
+    <defaultVal />
+  </variable>
+</component>

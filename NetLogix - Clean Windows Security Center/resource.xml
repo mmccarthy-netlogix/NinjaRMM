@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Clean Windows Security Center</name>
+    <category>scripts</category>
+    <description>Uses WMI to pull all of the currently registered AV products and removes any that do not have their EXE on the system any longer.</description>
+    <uid>7cf1f25c-f5b1-4469-9672-98dc5b0c8a64</uid>
+    <hash />
+    <version>6</version>
+    <timeout>120</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>powershell</installType>
+  </general>
+</component>

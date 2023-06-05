@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>BACPS - Domain Join</name>
+    <category>scripts</category>
+    <description></description>
+    <uid>0f1d0d70-d548-4ddb-a263-641860b39796</uid>
+    <hash />
+    <version>11</version>
+    <timeout>3600</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>powershell</installType>
+  </general>
+</component>

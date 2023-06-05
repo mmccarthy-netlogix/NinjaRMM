@@ -1,0 +1,1 @@
+.\Remove-PreviousOfficeInstalls.ps1 -quiet $true -Remove2016Installs $true -RemoveClickToRunVersions $true

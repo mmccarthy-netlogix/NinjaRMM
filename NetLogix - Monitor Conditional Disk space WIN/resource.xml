@@ -1,0 +1,94 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Monitor Conditional Disk space [WIN]</name>
+    <category>monitors</category>
+    <description>Monitors disk space based on conditionals instead of static values.
+Allows you to exclude disks from monitoring via UDF.
+
+Supported OS: Server 2012 and higher
+Related blog: https://www.cyberdrain.com/monitoring-with-powershell-conditional-disk-space-monitoring/</description>
+    <uid>6f130881-5298-4817-b15d-963bd3931dc9</uid>
+    <hash />
+    <version>4</version>
+    <timeout>60</timeout>
+    <securityLevel>4</securityLevel>
+    <installType>powershell</installType>
+  </general>
+  <variable idx='0'>
+    <name>SmallDiskAbsolute</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>What absolute value to monitor for small disks</description>
+    <defaultVal>5GB</defaultVal>
+  </variable>
+  <variable idx='1'>
+    <name>LargeDiskThreshold</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>Threshold for what is considered a large disk</description>
+    <defaultVal>10TB</defaultVal>
+  </variable>
+  <variable idx='2'>
+    <name>LargeDiskAbsolute</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>What absolute value to monitor for large disks</description>
+    <defaultVal>100GB</defaultVal>
+  </variable>
+  <variable idx='3'>
+    <name>LargeDiskpercent</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>what percentage to alert on for large disks</description>
+    <defaultVal>2</defaultVal>
+  </variable>
+  <variable idx='4'>
+    <name>MediumDiskAbsolute</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>What absolute value to monitor for medium disks</description>
+    <defaultVal>50GB</defaultVal>
+  </variable>
+  <variable idx='5'>
+    <name>SmallDiskThreshold</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>Threshold for what is considered a Small disk</description>
+    <defaultVal>200GB</defaultVal>
+  </variable>
+  <variable idx='6'>
+    <name>MediumDiskPercent</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>what percentage to alert on for medium disks</description>
+    <defaultVal>5</defaultVal>
+  </variable>
+  <variable idx='7'>
+    <name>MediumdiskThreshold</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>Threshold for what is considered a medium disk</description>
+    <defaultVal>3TB</defaultVal>
+  </variable>
+  <variable idx='8'>
+    <name>SmallDiskPercent</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>what percentage to alert on for Small disks</description>
+    <defaultVal>10</defaultVal>
+  </variable>
+  <variable idx='9'>
+    <name>ExcludeUDF</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>UDF to use for excluded disks.</description>
+    <defaultVal>25</defaultVal>
+  </variable>
+  <variable idx='10'>
+    <name>MinimumDiskSize</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>Minimum disk size to alert on</description>
+    <defaultVal>40GB</defaultVal>
+  </variable>
+</component>

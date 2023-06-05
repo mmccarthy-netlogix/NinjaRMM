@@ -1,0 +1,27 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Restart Service</name>
+    <category>scripts</category>
+    <description>Restarts a service, optionally starts a stopped service.</description>
+    <uid>6d740286-9c7c-4147-a5a1-e98aad66e601</uid>
+    <hash />
+    <version>12</version>
+    <timeout>3600</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>powershell</installType>
+  </general>
+  <variable idx='0'>
+    <name>ServiceName</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>Service name to restart</description>
+    <defaultVal />
+  </variable>
+  <variable idx='1'>
+    <name>StartIfStopped</name>
+    <type>boolean</type>
+    <direction>false</direction>
+    <description>Start service if it is stopped</description>
+    <defaultVal>true</defaultVal>
+  </variable>
+</component>

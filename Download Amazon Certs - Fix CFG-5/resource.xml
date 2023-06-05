@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>Download Amazon Certs - Fix CFG-5</name>
+    <category>scripts</category>
+    <description>Credit to ChatGPT and Joe CImino of VitalNetix!</description>
+    <uid>3e8a1bee-81da-4945-a441-29db2760310c</uid>
+    <hash />
+    <version>2</version>
+    <timeout>3600</timeout>
+    <securityLevel>5</securityLevel>
+    <installType>powershell</installType>
+  </general>
+</component>

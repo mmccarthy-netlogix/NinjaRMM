@@ -1,0 +1,34 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>Map Network Drive [WIN]</name>
+    <category>scripts</category>
+    <description>Maps a Network Drive for the logged-on user. A user must be logged on.</description>
+    <uid>9d544054-ceb4-4906-ba77-ba3f432f421e</uid>
+    <hash />
+    <version>3</version>
+    <timeout>3600</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>powershell</installType>
+  </general>
+  <variable idx='0'>
+    <name>usrDriveLetter</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>Letter to map the drive to. Do not include a colon or backslash. Use 'ANY' to automatically find a letter.</description>
+    <defaultVal>ANY</defaultVal>
+  </variable>
+  <variable idx='1'>
+    <name>usrDriveLocation</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>UNC (Windows) path to map the drive to.</description>
+    <defaultVal>\\server\folder</defaultVal>
+  </variable>
+  <variable idx='2'>
+    <name>usrOverwrite</name>
+    <type>boolean</type>
+    <direction>false</direction>
+    <description>Overwrite preëxisting mapped drive designations? (This may conflict with the 'ANY' letter setting)</description>
+    <defaultVal>false</defaultVal>
+  </variable>
+</component>

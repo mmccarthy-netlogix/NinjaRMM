@@ -1,0 +1,15 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Install Microsoft Teams (GCC High)</name>
+    <category>scripts</category>
+    <description>Installs Microsoft Teams GCC High client
+
+Optionally uninstalls Teams from all users profiles</description>
+    <uid>b4a88666-75aa-45f8-984e-7384e774220e</uid>
+    <hash />
+    <version>1</version>
+    <timeout>3600</timeout>
+    <securityLevel>5</securityLevel>
+    <installType />
+  </general>
+</component>

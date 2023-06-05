@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>test</name>
+    <category>scripts</category>
+    <description>null</description>
+    <uid>352ba5ae-8b4d-42fa-b37f-5a9bab429c14</uid>
+    <hash />
+    <version>1</version>
+    <timeout>3600</timeout>
+    <securityLevel>5</securityLevel>
+    <installType />
+  </general>
+</component>

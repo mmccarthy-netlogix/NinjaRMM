@@ -1,0 +1,98 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Microsoft Office 365 Configuration Tool [WIN]</name>
+    <category>applications</category>
+    <description>Use this tool to generate a configuration XML file that the Office 365 installer Component will utilise. Running the installer without this configuration XML will cause the Component to use default settings. This Component supports Office 365, not Microsoft 365.</description>
+    <uid>fdf98de6-c9d4-4f61-b81b-29758cc0fdb8</uid>
+    <hash />
+    <version>3</version>
+    <timeout>3600</timeout>
+    <securityLevel>1</securityLevel>
+    <installType>powershell</installType>
+    <uninstallType />
+  </general>
+  <variable idx='0'>
+    <name>usrCompanyName</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>Company name to tie installation to. Leave blank to use Site name.</description>
+    <defaultVal></defaultVal>
+  </variable>
+  <variable idx='1'>
+    <name>usrLangID</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>Which languages to install. Culture ID entries delimited by a comma. List of culture IDs for Office 365 is available here: http://dat.to/o365lang</description>
+    <defaultVal>en-us</defaultVal>
+  </variable>
+  <variable idx='2'>
+    <name>usrBitness</name>
+    <selectionKeyValue idx='0'>
+      <name>32-Bit</name>
+      <value>32</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='1'>
+      <name>64-Bit</name>
+      <value>64</value>
+    </selectionKeyValue>
+    <type>map</type>
+    <direction>false</direction>
+    <description>Choose the bitness of the installed Office programs.</description>
+    <defaultVal>64-Bit</defaultVal>
+  </variable>
+  <variable idx='3'>
+    <name>usrChannel</name>
+    <selectionKeyValue idx='0'>
+      <name>Semi-Annual Enterprise</name>
+      <value>Broad</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='1'>
+      <name>Semi-Annual Enterprise Preview</name>
+      <value>Targeted</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='2'>
+      <name>Current</name>
+      <value>Monthly</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='3'>
+      <name>Current Preview</name>
+      <value>Insiders</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='4'>
+      <name>Monthly Enterprise</name>
+      <value>MonthlyEnterprise</value>
+    </selectionKeyValue>
+    <type>map</type>
+    <direction>false</direction>
+    <description>Which update channel to use. Names accurate as of May 2020; https://docs.microsoft.com/en-us/DeployOffice/update-channels-changes</description>
+    <defaultVal>Current</defaultVal>
+  </variable>
+  <variable idx='4'>
+    <name>usrExclusion</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>Which products not to install? Comma-delimited list consisting of: Access, Excel, Groove, Lync, OneDrive, OneNote, Outlook, PowerPoint, Publisher, Teams, Word, Bing</description>
+    <defaultVal>Lync,OneNote,Bing</defaultVal>
+  </variable>
+  <variable idx='5'>
+    <name>usrEdition</name>
+    <selectionKeyValue idx='0'>
+      <name>MS 365 Apps for Enterprise</name>
+      <value>O365ProPlusRetail</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='1'>
+      <name>MS 365 Apps for Business</name>
+      <value>O365BusinessRetail</value>
+    </selectionKeyValue>
+    <type>map</type>
+    <direction>false</direction>
+    <description>Which Office 365 Edition to deploy</description>
+    <defaultVal>MS 365 Apps for Enterprise</defaultVal>
+  </variable>
+  <postCondition idx='0'>
+    <consequence>warn</consequence>
+    <resource>stdout,stderr</resource>
+    <text>ERROR:</text>
+    <qualifier>found</qualifier>
+  </postCondition>
+</component>

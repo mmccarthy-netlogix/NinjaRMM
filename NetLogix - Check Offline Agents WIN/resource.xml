@@ -1,0 +1,53 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Check Offline Agents [WIN]</name>
+    <category>scripts</category>
+    <description>Compare offline DattoRMM agents to CW Control</description>
+    <uid>6520f567-b93c-4892-a3e0-1e9bad11c4e6</uid>
+    <hash />
+    <version>25</version>
+    <timeout>3600</timeout>
+    <securityLevel>4</securityLevel>
+    <installType>powershell</installType>
+  </general>
+  <variable idx='0'>
+    <name>DRMMKey</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description />
+    <defaultVal />
+  </variable>
+  <variable idx='1'>
+    <name>DRMMSecretKey</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description />
+    <defaultVal />
+  </variable>
+  <variable idx='2'>
+    <name>CWCAccessKey</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description></description>
+    <defaultVal />
+  </variable>
+  <variable idx='3'>
+    <name>Action</name>
+    <selectionKeyValue idx='0'>
+      <name>None</name>
+      <value>None</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='1'>
+      <name>Start</name>
+      <value>Start</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='2'>
+      <name>Restart</name>
+      <value>Restart</value>
+    </selectionKeyValue>
+    <type>map</type>
+    <direction>false</direction>
+    <description>Action to be taken for offline agents.</description>
+    <defaultVal>Restart</defaultVal>
+  </variable>
+</component>

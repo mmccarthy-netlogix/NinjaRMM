@@ -1,0 +1,32 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>SNAP Defense Deployment</name>
+    <category>monitors</category>
+    <description>v2.0 this script will install SNAP Defense you have two options: 
+1) Enter a URL and download directly.  
+Variables to set: SNAP_AllowSites = 0,  SNAP_DOWNLOAD =  URL from portal. 
+
+2) Enter Datto Site Variables into the correct location.
+Variables to set:   SNAP_AllowSites = 1  SNAP_DOWLOAD = Nothing needed, all variables set in the sites directly.</description>
+    <uid>08de4547-1d18-4576-904d-b06852027195</uid>
+    <hash />
+    <version>6</version>
+    <timeout>60</timeout>
+    <securityLevel>4</securityLevel>
+    <installType>powershell</installType>
+  </general>
+  <variable idx='0'>
+    <name>SNAP_AllowSites</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>If this is set to 1 it will pull variables from the SITE Variables defined under each site.</description>
+    <defaultVal>1</defaultVal>
+  </variable>
+  <variable idx='1'>
+    <name>SNAP_DOWNLOAD</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>This downloads directly from URL provided to you by customer support. If you rather use SITE variables for organizational purposes change SNAP_SITES variable to 1 when importing this script.</description>
+    <defaultVal>_Change Me_</defaultVal>
+  </variable>
+</component>

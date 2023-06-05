@@ -1,0 +1,15 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - HP Array Disk Monitor</name>
+    <category>monitors</category>
+    <description>Uses HPs WBEM WMI query to check the status of drives in a system.
+
+Based on PRTG monitor script from Daniel Streefkerk</description>
+    <uid>eb9103ca-1b9c-4006-a228-dbe507bdc041</uid>
+    <hash />
+    <version>7</version>
+    <timeout>60</timeout>
+    <securityLevel>4</securityLevel>
+    <installType>powershell</installType>
+  </general>
+</component>

@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Uninstall CloudRadial [WIN]</name>
+    <category>scripts</category>
+    <description>Removes all instances of Cloud Radial</description>
+    <uid>5450ebc7-c356-4783-8cbc-b0a609bc8259</uid>
+    <hash />
+    <version>22</version>
+    <timeout>3600</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>powershell</installType>
+  </general>
+</component>

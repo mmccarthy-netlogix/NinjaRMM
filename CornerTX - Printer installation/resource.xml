@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>CornerTX - Printer installation</name>
+    <category>scripts</category>
+    <description></description>
+    <uid>7118587e-7d6d-40e3-992e-ab0582638798</uid>
+    <hash>20e00b593aaed22daed11b0ddd501618</hash>
+    <version>25</version>
+    <timeout>3600</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>unix</installType>
+  </general>
+</component>

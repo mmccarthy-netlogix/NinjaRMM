@@ -1,0 +1,1 @@
+netsh wlan add profile filename=Wi-Fi-BACPS-Student.xml

@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Unitrends Agent Update [WIN]</name>
+    <category>scripts</category>
+    <description>Downloads and installs the latest Unitrends agent</description>
+    <uid>c039043b-f569-424b-a659-67f7070004f9</uid>
+    <hash />
+    <version>26</version>
+    <timeout>3600</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>powershell</installType>
+  </general>
+</component>

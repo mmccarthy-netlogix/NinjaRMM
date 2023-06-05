@@ -1,0 +1,42 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - CloudRadial Deploment [WIN]</name>
+    <category>scripts</category>
+    <description>Requires site variables to be configured:
+CRDownloadURL - URL to be used for Agent download
+CRCompanyID - Cloud Radial Company ID
+SiteOverride - Uses the variables set when running the component over configured site variables
+
+Site Variables:
+CRDownloadURLSite
+CRCompanyIDSite</description>
+    <uid>de1371bb-2d1a-4aeb-9366-f7ac9f3d474a</uid>
+    <hash />
+    <version>25</version>
+    <timeout>3600</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>powershell</installType>
+  </general>
+  <variable idx='0'>
+    <name>CRDownloadURL</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>URL to use to download the agent, by default this is the URL to the NetLogix Agent.</description>
+    <defaultVal>https://itmedia.azureedge.net/apps/Netlogix-DataAgent-2112304103301.exe</defaultVal>
+  </variable>
+  <variable idx='1'>
+    <name>CRCompanyID</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>Company ID to use during installation.  This can be found in Cloud Radial under Partner -&gt; Clients, select the Agents tab and you will find the Company ID column</description>
+    <defaultVal>0</defaultVal>
+  </variable>
+  <variable idx='2'>
+    <name>SiteOverride</name>
+    <type>boolean</type>
+    <direction>false</direction>
+    <description>True = Use settings specified at component run time
+False = Site variables will override any variables set at run time</description>
+    <defaultVal>false</defaultVal>
+  </variable>
+</component>

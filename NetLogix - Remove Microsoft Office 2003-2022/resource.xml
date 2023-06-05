@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Remove Microsoft Office (2003-2022)</name>
+    <category>scripts</category>
+    <description></description>
+    <uid>fade505a-9429-460e-8df7-99cef54f42a7</uid>
+    <hash />
+    <version>27</version>
+    <timeout>3600</timeout>
+    <securityLevel>5</securityLevel>
+    <installType>powershell</installType>
+  </general>
+</component>

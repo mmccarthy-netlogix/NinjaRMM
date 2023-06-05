@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Microsoft Defender Enable Antispyware Protection</name>
+    <category>scripts</category>
+    <description>Checks for the presence of HKLM:\SOFTWARE\Policies\Microsoft\Windows Defender\DisableAntiSpyware and removes it.</description>
+    <uid>4046d7df-0606-467e-b06a-60aafe74d4a3</uid>
+    <hash />
+    <version>6</version>
+    <timeout>3600</timeout>
+    <securityLevel>5</securityLevel>
+    <installType>powershell</installType>
+  </general>
+</component>

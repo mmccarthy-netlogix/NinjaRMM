@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Check Sophos uninstall status</name>
+    <category>scripts</category>
+    <description></description>
+    <uid>d801f6f7-b2d8-4af5-bfa5-b382994171b1</uid>
+    <hash />
+    <version>4</version>
+    <timeout>3600</timeout>
+    <securityLevel>5</securityLevel>
+    <installType>powershell</installType>
+  </general>
+</component>

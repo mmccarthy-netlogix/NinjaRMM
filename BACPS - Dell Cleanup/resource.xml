@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>BACPS - Dell Cleanup</name>
+    <category>scripts</category>
+    <description></description>
+    <uid>31d332ef-a835-4404-af86-7b4a00488797</uid>
+    <hash />
+    <version>15</version>
+    <timeout>3600</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>powershell</installType>
+  </general>
+</component>

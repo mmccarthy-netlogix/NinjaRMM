@@ -1,0 +1,49 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>Deploy RMM Agent by AD GPO [WIN]</name>
+    <category>scripts</category>
+    <description>Installs the Datto RMM Agent on next policy refresh for domain-controlled environments.
+
+PLEASE REFER TO THE ONLINE DOCUMENTATION FOR FULL INFORMATION BEFORE USE: http://dat.to/rmmgpo</description>
+    <uid>802a7693-aa3f-4688-acff-0d23b5e2d2d3</uid>
+    <hash>a056bc71ba2321cc8880d22b6499dadf</hash>
+    <version>7</version>
+    <timeout>3600</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>powershell</installType>
+  </general>
+  <variable idx='0'>
+    <name>RemoveGPO</name>
+    <type>boolean</type>
+    <direction>false</direction>
+    <description>Control whether or not to use the component to remove the GPO and folder/contents; set to True to do this instead of setting up GPO deployment.</description>
+    <defaultVal>false</defaultVal>
+  </variable>
+  <variable idx='1'>
+    <name>RecreateCSV</name>
+    <type>boolean</type>
+    <direction>false</direction>
+    <description>Control whether or not to recreate the CSV file required for OU targeting. Set both this variable and UseOUTargeting to True to do this, otherwise leave False</description>
+    <defaultVal>false</defaultVal>
+  </variable>
+  <variable idx='2'>
+    <name>ImmediateGPUpdate</name>
+    <type>boolean</type>
+    <direction>false</direction>
+    <description>Control whether or not to run an immediate and silent Group Policy update across all your domain-joined computers once the GPO is imported and linked. True will do this. Set to False to wait for next automatic refresh</description>
+    <defaultVal>true</defaultVal>
+  </variable>
+  <variable idx='3'>
+    <name>UseOUTargeting</name>
+    <type>boolean</type>
+    <direction>false</direction>
+    <description>Control targeting of GPO link(s) and/or destination sites. False will create a link at domain root and associate all computers to the DC site. Set to True to target by OU, and/or associate OUs to different sites, based on a pre-populated generated CSV file. First run will generate the file, subsequent run will deploy the Agents accordingly.</description>
+    <defaultVal>false</defaultVal>
+  </variable>
+  <postCondition idx='0'>
+    <consequence>warn</consequence>
+    <resource>stderr</resource>
+    <text>run immediate and silent gpupdate</text>
+    <qualifier>found</qualifier>
+  </postCondition>
+</component>

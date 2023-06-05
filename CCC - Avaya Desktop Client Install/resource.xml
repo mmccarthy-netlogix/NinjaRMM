@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>CCC - Avaya Desktop Client Install</name>
+    <category>scripts</category>
+    <description></description>
+    <uid>1175f739-e673-4848-9460-651e43f1d901</uid>
+    <hash />
+    <version>9</version>
+    <timeout>3600</timeout>
+    <securityLevel>2</securityLevel>
+    <installType>powershell</installType>
+  </general>
+</component>

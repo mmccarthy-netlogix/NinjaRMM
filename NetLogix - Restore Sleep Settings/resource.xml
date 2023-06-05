@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Restore Sleep Settings</name>
+    <category>scripts</category>
+    <description></description>
+    <uid>110a8788-b0ec-4601-ad9f-95aaeb2d7310</uid>
+    <hash />
+    <version>4</version>
+    <timeout>3600</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>powershell</installType>
+  </general>
+</component>

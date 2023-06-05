@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - CW Control Deploment [WIN]</name>
+    <category>scripts</category>
+    <description></description>
+    <uid>22cf7ad6-cc20-4865-8311-62dff64a0a9d</uid>
+    <hash />
+    <version>12</version>
+    <timeout>300</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>powershell</installType>
+  </general>
+</component>

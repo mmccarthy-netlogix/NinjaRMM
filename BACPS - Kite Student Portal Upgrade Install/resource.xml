@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>BACPS - Kite Student Portal Upgrade (Install)</name>
+    <category>scripts</category>
+    <description></description>
+    <uid>e3420eec-bb98-4d6e-97cb-8172028cff26</uid>
+    <hash />
+    <version>24</version>
+    <timeout>3600</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>powershell</installType>
+  </general>
+</component>

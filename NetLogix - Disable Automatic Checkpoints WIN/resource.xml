@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Disable Automatic Checkpoints [WIN]</name>
+    <category>scripts</category>
+    <description>Disables automatic checkpoints on all virtual machines</description>
+    <uid>4d4f7177-010d-4b69-a9c9-8df9549c8d85</uid>
+    <hash />
+    <version>7</version>
+    <timeout>3600</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>powershell</installType>
+  </general>
+</component>

@@ -1,0 +1,64 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Find/Update Links</name>
+    <category>scripts</category>
+    <description>Searches the specified folder and all sub folders for .lnk files and updates them to a new path.</description>
+    <uid>21e47a1e-3428-4259-a1be-f4e8f87f579a</uid>
+    <hash />
+    <version>11</version>
+    <timeout>3600</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>powershell</installType>
+  </general>
+  <variable idx='0'>
+    <name>SearchFolder</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>Defaults to $ENV:USERPROFILE</description>
+    <defaultVal>$ENV:USERPROFILE</defaultVal>
+  </variable>
+  <variable idx='1'>
+    <name>OriginalPath</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>Path to be replaced</description>
+    <defaultVal />
+  </variable>
+  <variable idx='2'>
+    <name>NewPath</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>New path</description>
+    <defaultVal />
+  </variable>
+  <variable idx='3'>
+    <name>Commit</name>
+    <selectionKeyValue idx='0'>
+      <name>Save</name>
+      <value>Yes</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='1'>
+      <name>Display Only</name>
+      <value>No</value>
+    </selectionKeyValue>
+    <type>map</type>
+    <direction>false</direction>
+    <description>Display only, or save the new paths</description>
+    <defaultVal>Display Only</defaultVal>
+  </variable>
+  <variable idx='4'>
+    <name>ExportCSV</name>
+    <selectionKeyValue idx='0'>
+      <name>Export</name>
+      <value>Yes</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='1'>
+      <name>No Export</name>
+      <value>No</value>
+    </selectionKeyValue>
+    <type>map</type>
+    <direction>false</direction>
+    <description>When set to export saves a CSV file of all the changes to C:\ProgramData\CentraStage\links.csv</description>
+    <defaultVal>No Export</defaultVal>
+  </variable>
+</component>

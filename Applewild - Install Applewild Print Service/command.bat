@@ -1,0 +1,1 @@
+Start-Process msiexec.exe -Wait -ArgumentList '/i MomSmartClient_X64.msi /qn /norestart'

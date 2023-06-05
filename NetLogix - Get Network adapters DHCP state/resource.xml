@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Get Network adapter(s) DHCP state</name>
+    <category>scripts</category>
+    <description>Outputs all network adapters and their DHCP state (Enabled/Disabled)</description>
+    <uid>be10b1af-c953-4876-a9b5-07cf9a42316d</uid>
+    <hash />
+    <version>15</version>
+    <timeout>3600</timeout>
+    <securityLevel>5</securityLevel>
+    <installType>powershell</installType>
+  </general>
+</component>

@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Monitor VSS Status</name>
+    <category>monitors</category>
+    <description>The monitor checks VSS writers using the command 'vssadmin list writers' and parses the results.</description>
+    <uid>cbca4d75-568a-45b0-b009-59b46cd6523f</uid>
+    <hash />
+    <version>11</version>
+    <timeout>60</timeout>
+    <securityLevel>4</securityLevel>
+    <installType>powershell</installType>
+  </general>
+</component>

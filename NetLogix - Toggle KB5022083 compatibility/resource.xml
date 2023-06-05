@@ -1,0 +1,20 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Toggle KB5022083 compatibility</name>
+    <category>scripts</category>
+    <description></description>
+    <uid>c20e41ef-5dc3-41fc-9604-2ce92d306bc7</uid>
+    <hash>2d909261042ead01d1a4455160cd2665</hash>
+    <version>7</version>
+    <timeout>3600</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>powershell</installType>
+  </general>
+  <variable idx='0'>
+    <name>Install</name>
+    <type>boolean</type>
+    <direction>false</direction>
+    <description>Add or remove the combability registry keys for KB5022083</description>
+    <defaultVal>true</defaultVal>
+  </variable>
+</component>

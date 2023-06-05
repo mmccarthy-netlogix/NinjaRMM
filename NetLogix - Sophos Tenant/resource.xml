@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Sophos Tenant</name>
+    <category>monitors</category>
+    <description>Checks that the tenant ID in the registry of the machine matches that of the site.</description>
+    <uid>519c71d4-aecf-4fd6-aa05-e033bbbe889f</uid>
+    <hash />
+    <version>11</version>
+    <timeout>60</timeout>
+    <securityLevel>4</securityLevel>
+    <installType>powershell</installType>
+  </general>
+</component>

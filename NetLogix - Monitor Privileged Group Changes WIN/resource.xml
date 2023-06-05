@@ -1,0 +1,33 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Monitor Privileged Group Changes [WIN]</name>
+    <category>monitors</category>
+    <description>Checks if groups such as Domain Admins, Enterprise Admins, etc has new users in them, and alerts if a user has been added. Requires Active Directory services to be running.
+
+Supported OS: Server 2012R2 and up. 
+
+Related blog: https://www.cyberdrain.com/monitoring-with-powershell-chapter-3-monitoring-user-creation/</description>
+    <uid>07a1f957-57cc-4000-aeba-e3a6154a225b</uid>
+    <hash />
+    <version>12</version>
+    <timeout>60</timeout>
+    <securityLevel>4</securityLevel>
+    <installType>powershell</installType>
+  </general>
+  <variable idx='0'>
+    <name>usrServer</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description></description>
+    <defaultVal>localhost</defaultVal>
+  </variable>
+  <variable idx='1'>
+    <name>usrInterval</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>Interval this monitor is configured to run (Minutes)
+60 = 1 Hour
+1440 = 1 Day</description>
+    <defaultVal>60</defaultVal>
+  </variable>
+</component>

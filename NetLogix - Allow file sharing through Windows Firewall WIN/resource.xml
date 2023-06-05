@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Allow file sharing through Windows Firewall [WIN]</name>
+    <category>scripts</category>
+    <description></description>
+    <uid>1d84c6c3-3ebd-4098-b7a5-05975acc6ad3</uid>
+    <hash />
+    <version>4</version>
+    <timeout>3600</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>batch</installType>
+  </general>
+</component>

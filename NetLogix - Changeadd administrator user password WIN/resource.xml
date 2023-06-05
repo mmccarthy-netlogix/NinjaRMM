@@ -1,0 +1,27 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Change/add administrator user password [WIN]</name>
+    <category>scripts</category>
+    <description>Changes the password for a user specified at execution time. Run on a Domain Controller will change the password for a domain user. Run on a member workstation, stand-alone workstation or stand-alone server will change the password for a local user.</description>
+    <uid>b5a84ad5-ed79-4c15-b3ec-95eeafaf593f</uid>
+    <hash />
+    <version>27</version>
+    <timeout>3600</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>powershell</installType>
+  </general>
+  <variable idx='0'>
+    <name>cs_username</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>User name to have password changed</description>
+    <defaultVal></defaultVal>
+  </variable>
+  <variable idx='1'>
+    <name>cs_password</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>New password</description>
+    <defaultVal></defaultVal>
+  </variable>
+</component>

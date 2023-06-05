@@ -1,0 +1,20 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>Zorus Archon Monitor [WIN]</name>
+    <category>monitors</category>
+    <description>Monitors if the Zorus Archon agent is Installed and Running</description>
+    <uid>f84ff1ba-41a0-4599-9ad8-406b6538f2ea</uid>
+    <hash />
+    <version>12</version>
+    <timeout>60</timeout>
+    <securityLevel>4</securityLevel>
+    <installType>powershell</installType>
+  </general>
+  <variable idx='0'>
+    <name>Zorus Archon Agent Status</name>
+    <type>string</type>
+    <direction>true</direction>
+    <description>Zorus Archon Agent Status</description>
+    <defaultVal />
+  </variable>
+</component>

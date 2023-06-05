@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>CCC - Check MS Access</name>
+    <category>scripts</category>
+    <description></description>
+    <uid>4f46c978-a222-4d4a-bc85-165b4aa83be3</uid>
+    <hash />
+    <version>15</version>
+    <timeout>3600</timeout>
+    <securityLevel>5</securityLevel>
+    <installType>powershell</installType>
+  </general>
+</component>

@@ -1,0 +1,1 @@
+Get-ItemProperty HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System\Kerberos\Parameters -Name SupportedEncryptionTypes

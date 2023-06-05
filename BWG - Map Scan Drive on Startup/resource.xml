@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>BWG - Map Scan Drive on Startup</name>
+    <category>scripts</category>
+    <description>This component creates a batch file that is placed in $ENV:ProgramData\Microsoft\Windows\Start Menu\Programs\Startup that maps the network drives.</description>
+    <uid>8f56b0b0-5ee4-4696-8911-a1689cb43b3e</uid>
+    <hash />
+    <version>2</version>
+    <timeout>3600</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>powershell</installType>
+  </general>
+</component>

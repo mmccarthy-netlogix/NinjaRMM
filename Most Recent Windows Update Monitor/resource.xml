@@ -1,0 +1,27 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>Most Recent Windows Update Monitor</name>
+    <category>monitors</category>
+    <description>Monitors the device for the most recent cumulative Windows Update and alerts if the latest update is over X days old. Windows 10/11 supported. Insider previews and other Windows versions will fallback to local hotfix install data.</description>
+    <uid>84a02fcf-874e-46b5-80b0-51ecf664c009</uid>
+    <hash />
+    <version>4</version>
+    <timeout>60</timeout>
+    <securityLevel>4</securityLevel>
+    <installType>powershell</installType>
+  </general>
+  <variable idx='0'>
+    <name>MaxAge</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>Max age in days.</description>
+    <defaultVal>60</defaultVal>
+  </variable>
+  <variable idx='1'>
+    <name>UpdateAge</name>
+    <type>number</type>
+    <direction>true</direction>
+    <description>Last update age in days.</description>
+    <defaultVal></defaultVal>
+  </variable>
+</component>

@@ -1,0 +1,14 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Check Default Domain Admin</name>
+    <category>monitors</category>
+    <description>Checks to see if the default admin account is enabled.
+Outputs the name of the account and it's status.</description>
+    <uid>61fda882-292a-40e3-91ed-f4f869015faf</uid>
+    <hash />
+    <version>19</version>
+    <timeout>60</timeout>
+    <securityLevel>4</securityLevel>
+    <installType>powershell</installType>
+  </general>
+</component>

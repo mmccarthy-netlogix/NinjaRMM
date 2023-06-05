@@ -1,0 +1,48 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>CCC - Install/Re-Install MS Office</name>
+    <category>scripts</category>
+    <description>Installs Office with options to install Office with Access Runtime, Full Access, and optionally installing publisher as well.
+A separate option installs Visio</description>
+    <uid>aa82a1fd-6aca-48c9-a0c6-aaf5a26eeabd</uid>
+    <hash>02976f9450f74587ff56b2a122c409bf</hash>
+    <version>44</version>
+    <timeout>3600</timeout>
+    <securityLevel>2</securityLevel>
+    <installType>powershell</installType>
+  </general>
+  <variable idx='0'>
+    <name>Uninstall</name>
+    <type>boolean</type>
+    <direction>false</direction>
+    <description>Uninstall Office?</description>
+    <defaultVal>false</defaultVal>
+  </variable>
+  <variable idx='1'>
+    <name>InstallOptions</name>
+    <selectionKeyValue idx='0'>
+      <name>Access Runtime No Publisher</name>
+      <value>Configuration-Office-AccessRuntimeNoPublisher.xml</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='1'>
+      <name>Access Runtime Publisher</name>
+      <value>Configuration-Office-AccessRuntimePublisher.xml</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='2'>
+      <name>Full Access No Publisher</name>
+      <value>Configuration-Office-FullAccessNoPublisher.xml</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='3'>
+      <name>Full Access Publisher</name>
+      <value>Configuration-Office-FullAccessPublisher.xml</value>
+    </selectionKeyValue>
+    <selectionKeyValue idx='4'>
+      <name>Visio</name>
+      <value>Configuration-Office-Visio.xml</value>
+    </selectionKeyValue>
+    <type>map</type>
+    <direction>false</direction>
+    <description></description>
+    <defaultVal>Access Runtime No Publisher</defaultVal>
+  </variable>
+</component>

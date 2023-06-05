@@ -1,0 +1,72 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>NetLogix - Network Detective Scan</name>
+    <category>scripts</category>
+    <description>Downloads the latest Network Detective application and connector.
+Runs a computer scan
+Runs a security scan
+Uploads the files using the Network Detective Connector using the NDConnectorID set at the site level.</description>
+    <uid>6e2d8c99-2c32-41cb-a989-8f85326cc0b6</uid>
+    <hash />
+    <version>11</version>
+    <timeout>3600</timeout>
+    <securityLevel>3</securityLevel>
+    <installType>powershell</installType>
+  </general>
+  <variable idx='0'>
+    <name>NDSkipAD</name>
+    <type>boolean</type>
+    <direction>false</direction>
+    <description>Skip AD scan</description>
+    <defaultVal>false</defaultVal>
+  </variable>
+  <variable idx='1'>
+    <name>NDSkipEventLogs</name>
+    <type>boolean</type>
+    <direction>false</direction>
+    <description>Skip event log scan</description>
+    <defaultVal>false</defaultVal>
+  </variable>
+  <variable idx='2'>
+    <name>NDSkipSQL</name>
+    <type>boolean</type>
+    <direction>false</direction>
+    <description>Skip scanning for SQL instances</description>
+    <defaultVal>false</defaultVal>
+  </variable>
+  <variable idx='3'>
+    <name>NDSkipInternetAvailability</name>
+    <type>boolean</type>
+    <direction>false</direction>
+    <description>Skip Internet check</description>
+    <defaultVal>false</defaultVal>
+  </variable>
+  <variable idx='4'>
+    <name>NDSkipInternetSpeedTest</name>
+    <type>boolean</type>
+    <direction>false</direction>
+    <description>Skip internet speed tests</description>
+    <defaultVal>false</defaultVal>
+  </variable>
+  <variable idx='5'>
+    <name>NDSkipDHCP</name>
+    <type>boolean</type>
+    <direction>false</direction>
+    <description>Skip DHCP scan</description>
+    <defaultVal>false</defaultVal>
+  </variable>
+  <variable idx='6'>
+    <name>NDSkipWHOIS</name>
+    <type>boolean</type>
+    <direction>false</direction>
+    <description>Skip domain lookups and ID Agent scan for email domains</description>
+    <defaultVal>false</defaultVal>
+  </variable>
+  <variable idx='7'>
+    <name>NDSkipIPScan</name>
+    <type>boolean</type>
+    <direction>false</direction>
+    <description>Skip scanning IP range(s)</description>
+    <defaultVal>false</defaultVal>
+  </variable>
+</component>

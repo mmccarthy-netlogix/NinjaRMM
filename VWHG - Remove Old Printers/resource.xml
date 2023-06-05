@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>VWHG - Remove Old Printers</name>
+    <category>scripts</category>
+    <description>Remove printers that were originally installed on VWH-DC01</description>
+    <uid>a678faa7-5da3-4cb5-bc01-05b05063b706</uid>
+    <hash />
+    <version>6</version>
+    <timeout>3600</timeout>
+    <securityLevel>1</securityLevel>
+    <installType>powershell</installType>
+  </general>
+</component>
